@@ -1,21 +1,47 @@
 extends Area2D
 
 var travelled_distance = 0
-
+var hit = false
 
 func _physics_process(delta: float) -> void:
-	const SPEED = 1000
-	const RANGE = 1200
+	%Spell.play("default")
 	
+	if hit:
+		return
+
+	var SPEED = 1000
+	var RANGE = 1200
+
 	var direction = Vector2.RIGHT.rotated(rotation)
 	position += direction * SPEED * delta
 	
-	travelled_distance += SPEED * delta
-	if travelled_distance > RANGE:
-		queue_free()
+	%Spell.global_rotation = 0
+	
+	await %Spell.animation_finished
+	queue_free()
 
 
 func _on_body_entered(body: Node2D) -> void:
-	queue_free()
-	if body.has_method("take_damage"):
-		body.take_damage()
+	if hit:
+		return
+	hit = true
+	%CollisionShape2D.set_deferred("disabled", true)
+
+	await explode()
+
+
+func explode() -> void:
+	%BlastArea/CollisionShape2D.set_deferred("disabled", false)
+	await get_tree().physics_frame
+	await get_tree().physics_frame
+
+	print("blast shape disabled? ", %BlastArea/CollisionShape2D.disabled)
+	print("blast monitoring? ", %BlastArea.monitoring)
+
+	var bodies = %BlastArea.get_overlapping_bodies()
+	print("blast found: ", bodies.size(), " bodies")
+	for target in bodies:
+		print("  - ", target.name, " in enemies group: ", target.is_in_group("enemies"))
+		if target.has_method("take_damage"):
+			target.take_damage()
+	

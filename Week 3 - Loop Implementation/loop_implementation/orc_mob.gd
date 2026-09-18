@@ -2,7 +2,10 @@ extends CharacterBody2D
 
 var health = 3
 var is_dead = false
-@onready var player = get_node("/root/Game/SoldierPlayer")
+var xp_reward = 5
+@onready var player = get_node("/root/Game/Player")
+
+signal died(xp_value)
 
 func _ready():
 	%Orc.play("walk")
@@ -26,11 +29,9 @@ func take_damage():
 		return
 	health -= 1
 	if health <= 0:
+		died.emit(xp_reward)
 		die()
-		const SMOKE_EXPLOSION = preload("uid://dhmhmrth6rdce")
-		var smoke = SMOKE_EXPLOSION.instantiate()
-		get_parent().add_child(smoke)
-		smoke.global_position = global_position
+		
 	else:
 		%Orc.play("hurt")
 		await %Orc.animation_finished 

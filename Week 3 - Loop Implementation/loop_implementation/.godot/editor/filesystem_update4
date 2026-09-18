@@ -1,4 +1,8 @@
+res://bullet.tscn
+res://gun.gd
+res://player.gd
+res://player.tscn
 res://2D_Game.tscn
+res://2d_game.gd
+res://orc_mob.gd
 res://orc_mob.tscn
-res://soldier_player.tscn
-res://soldier_player.gd
