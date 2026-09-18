@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://b5ixw66oaedki"]
+
+[ext_resource type="Script" uid="uid://cfjvwhypwf5h5" path="res://bullet.gd" id="1_v8qja"]
+[ext_resource type="Texture2D" uid="uid://b82ugkwllpnqx" path="res://characters/Soldier with shadows/Arrow01(100x100).png" id="2_v8qja"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ahyey"]
+radius = 17.117243
+
+[node name="Arrow" type="Area2D" unique_id=761242566]
+top_level = true
+position = Vector2(-11, 0)
+collision_layer = 0
+collision_mask = 3
+script = ExtResource("1_v8qja")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=552345262]
+position = Vector2(11, 0)
+shape = SubResource("CircleShape2D_ahyey")
+
+[node name="Arrow01(100x100)" type="Sprite2D" parent="." unique_id=821011502]
+position = Vector2(11, 0)
+scale = Vector2(1.71, 1.71)
+texture = ExtResource("2_v8qja")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

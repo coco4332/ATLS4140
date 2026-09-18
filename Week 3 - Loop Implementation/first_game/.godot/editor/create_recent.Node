@@ -1,0 +1,14 @@
+CollisionShape2D
+AnimatedSprite2D
+CharacterBody2D
+AnimationPlayer
+Sprite2D
+Label
+ColorRect
+CanvasLayer
+Timer
+PathFollow2D
+Path2D
+ProgressBar
+Area2D
+Marker2D
