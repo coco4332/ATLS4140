@@ -7,8 +7,8 @@ func _physics_process(delta: float) -> void:
 	%Spell.play("default")
 	if hit:
 		return
-	var SPEED = 1000
-	var RANGE = 1200
+	var SPEED = 100
+	var RANGE = 120
 
 	var direction = Vector2.RIGHT.rotated(rotation)
 	position += direction * SPEED * delta

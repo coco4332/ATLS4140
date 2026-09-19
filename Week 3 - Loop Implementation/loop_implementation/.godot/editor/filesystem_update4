@@ -15,3 +15,6 @@ res://summon_spell.tscn
 res://summon.tscn
 res://cast.gd
 res://summon.gd
+res://cast.tscn
+res://spell.gd
+res://spell.tscn

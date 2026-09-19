@@ -83,7 +83,8 @@ config/features=PackedStringArray("4.7", "Forward Plus")
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/size/initial_screen=2
-window/stretch/mode="viewport"
+window/size/resizable=false
+window/stretch/mode="canvas_items"
 
 [dotnet]
 

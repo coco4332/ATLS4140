@@ -14,7 +14,7 @@ func _physics_process(delta: float) -> void:
 	if is_dead:
 		return
 	var direction = global_position.direction_to(player.global_position)
-	velocity = direction * 300
+	velocity = direction * 20
 	move_and_slide()
 
 func die():

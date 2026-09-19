@@ -7,7 +7,7 @@ var is_attacking = false
 
 func _physics_process(delta: float) -> void:
 	var direction = Input.get_vector("move_left","move_right","move_up","move_down")
-	velocity = direction * 600
+	velocity = direction * 150
 	move_and_slide()
 	
 	if not is_attacking:

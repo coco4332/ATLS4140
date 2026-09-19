@@ -231,12 +231,10 @@ script = ExtResource("1_i2a15")
 
 [node name="MeleeSkeleton" type="AnimatedSprite2D" parent="." unique_id=700528836]
 unique_name_in_owner = true
-scale = Vector2(3.502, 3.502)
 sprite_frames = SubResource("SpriteFrames_ahyey")
 animation = &"attack"
 autoplay = "summon"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=322350405]
 position = Vector2(2, 1)
-scale = Vector2(4.837, 4.837)
 shape = SubResource("CircleShape2D_kj45b")

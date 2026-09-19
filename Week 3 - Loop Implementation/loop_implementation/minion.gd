@@ -3,26 +3,29 @@ extends CharacterBody2D
 var health = 2
 var is_dead = false
 var target = null
+var is_summoning = true
 
-var attack_range = 40
+var attack_range = 10
 var attack_cooldown = 1.0
 var can_attack = true
 
+func _ready() -> void:
+	%MeleeSkeleton.play("summon")
+	await %MeleeSkeleton.animation_finished
+	is_summoning = false
+	%MeleeSkeleton.play("walk")
+	
 func _physics_process(delta: float) -> void:
-	
-	
-	if is_dead:
+	if is_dead or is_summoning:
 		return
 
 	target = get_nearest_enemy()
-
 	if not target:
 		velocity = Vector2.ZERO
 		move_and_slide()
 		return
 
 	var dist = global_position.distance_to(target.global_position)
-
 	if dist <= attack_range:
 		# In range: stop and attack
 		velocity = Vector2.ZERO
@@ -31,7 +34,7 @@ func _physics_process(delta: float) -> void:
 	else:
 		# Out of range: chase
 		var direction = global_position.direction_to(target.global_position)
-		velocity = direction * 300
+		velocity = direction * 30
 		if %MeleeSkeleton.animation != "attack":
 			%MeleeSkeleton.play("walk")
 	move_and_slide()

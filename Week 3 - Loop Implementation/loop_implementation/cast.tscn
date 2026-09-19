@@ -10,10 +10,6 @@ collision_layer = 0
 collision_mask = 2
 script = ExtResource("1_dk5gl")
 
-[node name="ShootingPoint" type="Marker2D" parent="." unique_id=1738554557]
-unique_name_in_owner = true
-position = Vector2(79, -13)
-
 [node name="Timer" type="Timer" parent="." unique_id=284581792]
 one_shot = true
 

@@ -18,11 +18,10 @@ bg_color = Color(0.5158252, 0.56059325, 0.9405508, 1)
 
 [node name="Game" type="Node2D" unique_id=1205380695]
 y_sort_enabled = true
-scale = Vector2(1.5, 1.5)
 script = ExtResource("1_yjop0")
 
 [node name="SpawnTimer" type="Timer" parent="." unique_id=933005065]
-wait_time = 0.393
+wait_time = 0.63
 autostart = true
 
 [node name="Player" parent="." unique_id=686752001 instance=ExtResource("3_yjop0")]
@@ -144,601 +143,721 @@ text = "1"
 
 [node name="PineTree" parent="." unique_id=1873101217 instance=ExtResource("2_yjop0")]
 position = Vector2(914.6667, 157.33333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree2" parent="." unique_id=1108596843 instance=ExtResource("2_yjop0")]
 position = Vector2(1084.6667, 1080.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree3" parent="." unique_id=309550810 instance=ExtResource("2_yjop0")]
 position = Vector2(316, 173.33333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree4" parent="." unique_id=896604814 instance=ExtResource("2_yjop0")]
 position = Vector2(1408.6667, 669.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree5" parent="." unique_id=1368981119 instance=ExtResource("2_yjop0")]
 position = Vector2(1355, 170)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree6" parent="." unique_id=1018633711 instance=ExtResource("2_yjop0")]
 position = Vector2(650, 974)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree7" parent="." unique_id=1014771508 instance=ExtResource("2_yjop0")]
 position = Vector2(119.33331, 520)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree8" parent="." unique_id=1459471562 instance=ExtResource("2_yjop0")]
 position = Vector2(152.66663, -315.33337)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree9" parent="." unique_id=1187362686 instance=ExtResource("2_yjop0")]
 position = Vector2(717.3333, 1442.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree10" parent="." unique_id=1144375905 instance=ExtResource("2_yjop0")]
 position = Vector2(1926, 1456.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree11" parent="." unique_id=1037755866 instance=ExtResource("2_yjop0")]
 position = Vector2(1288, 1386)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree12" parent="." unique_id=2092635843 instance=ExtResource("2_yjop0")]
 position = Vector2(1550.6666, 1280)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree13" parent="." unique_id=474043364 instance=ExtResource("2_yjop0")]
 position = Vector2(165.33325, 1046.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree14" parent="." unique_id=717093195 instance=ExtResource("2_yjop0")]
 position = Vector2(2256, 1107.3334)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree15" parent="." unique_id=457685802 instance=ExtResource("2_yjop0")]
 position = Vector2(663.3333, 2246.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree16" parent="." unique_id=1146803747 instance=ExtResource("2_yjop0")]
 position = Vector2(2547.3333, 491.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree17" parent="." unique_id=638152829 instance=ExtResource("2_yjop0")]
 position = Vector2(1926.6667, 572)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree18" parent="." unique_id=1568648484 instance=ExtResource("2_yjop0")]
 position = Vector2(1687.3334, 2089.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree19" parent="." unique_id=952509405 instance=ExtResource("2_yjop0")]
 position = Vector2(2546.6667, 852.00006)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree20" parent="." unique_id=1736127765 instance=ExtResource("2_yjop0")]
 position = Vector2(3755.3335, 866.00006)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree21" parent="." unique_id=3765831 instance=ExtResource("2_yjop0")]
 position = Vector2(3117.3335, 795.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree22" parent="." unique_id=1246566174 instance=ExtResource("2_yjop0")]
 position = Vector2(3380, 689.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree23" parent="." unique_id=984005482 instance=ExtResource("2_yjop0")]
 position = Vector2(2492.6667, 1656)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree24" parent="." unique_id=1813419805 instance=ExtResource("2_yjop0")]
 position = Vector2(3516.6667, 1498.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree25" parent="." unique_id=1256906347 instance=ExtResource("2_yjop0")]
 position = Vector2(2229.3333, 2002.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree26" parent="." unique_id=2048874772 instance=ExtResource("2_yjop0")]
 position = Vector2(3438, 2016.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree27" parent="." unique_id=1034931784 instance=ExtResource("2_yjop0")]
 position = Vector2(2800, 1946)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree28" parent="." unique_id=158142768 instance=ExtResource("2_yjop0")]
 position = Vector2(3062.6665, 1840)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree29" parent="." unique_id=1959594219 instance=ExtResource("2_yjop0")]
 position = Vector2(2175.3333, 2806.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree30" parent="." unique_id=725361036 instance=ExtResource("2_yjop0")]
 position = Vector2(3199.3335, 2649.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree31" parent="." unique_id=1972649244 instance=ExtResource("2_yjop0")]
 position = Vector2(776, 2843.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree32" parent="." unique_id=1018320512 instance=ExtResource("2_yjop0")]
 position = Vector2(1984.6666, 2857.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree33" parent="." unique_id=1383940268 instance=ExtResource("2_yjop0")]
 position = Vector2(1346.6666, 2786.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree34" parent="." unique_id=7424941 instance=ExtResource("2_yjop0")]
 position = Vector2(1609.3333, 2680.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree35" parent="." unique_id=1472509373 instance=ExtResource("2_yjop0")]
 position = Vector2(722, 3647.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree36" parent="." unique_id=794290350 instance=ExtResource("2_yjop0")]
 position = Vector2(1746, 3490.0002)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree37" parent="." unique_id=505740140 instance=ExtResource("2_yjop0")]
 position = Vector2(3630, 200.66675)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree38" parent="." unique_id=859532306 instance=ExtResource("2_yjop0")]
 position = Vector2(4838.667, 214.66675)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree39" parent="." unique_id=534285199 instance=ExtResource("2_yjop0")]
 position = Vector2(4200.667, 144)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree40" parent="." unique_id=1324218205 instance=ExtResource("2_yjop0")]
 position = Vector2(4463.3335, 38)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree41" parent="." unique_id=1812075827 instance=ExtResource("2_yjop0")]
 position = Vector2(3576, 1004.66675)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree42" parent="." unique_id=886153927 instance=ExtResource("2_yjop0")]
 position = Vector2(4600, 847.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree43" parent="." unique_id=944861737 instance=ExtResource("2_yjop0")]
 position = Vector2(-3556.6667, 2320)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree44" parent="." unique_id=968503917 instance=ExtResource("2_yjop0")]
 position = Vector2(-2348, 2334)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree45" parent="." unique_id=903978220 instance=ExtResource("2_yjop0")]
 position = Vector2(-2986, 2263.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree46" parent="." unique_id=884509273 instance=ExtResource("2_yjop0")]
 position = Vector2(-2723.3335, 2157.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree47" parent="." unique_id=580324113 instance=ExtResource("2_yjop0")]
 position = Vector2(-4108.667, 1924)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree48" parent="." unique_id=1044060630 instance=ExtResource("2_yjop0")]
 position = Vector2(-2018, 1984.6666)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree49" parent="." unique_id=1104967123 instance=ExtResource("2_yjop0")]
 position = Vector2(-3610.6667, 3124)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree50" parent="." unique_id=1849439772 instance=ExtResource("2_yjop0")]
 position = Vector2(-2586.6665, 2966.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree51" parent="." unique_id=450990273 instance=ExtResource("2_yjop0")]
 position = Vector2(-1781.3333, 2533.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree52" parent="." unique_id=1411719443 instance=ExtResource("2_yjop0")]
 position = Vector2(-757.33325, 2376)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree53" parent="." unique_id=1636740787 instance=ExtResource("2_yjop0")]
 position = Vector2(-2044.6667, 2880)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree54" parent="." unique_id=1934357619 instance=ExtResource("2_yjop0")]
 position = Vector2(-836, 2894)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree55" parent="." unique_id=1219188287 instance=ExtResource("2_yjop0")]
 position = Vector2(-1474, 2823.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree56" parent="." unique_id=1832637619 instance=ExtResource("2_yjop0")]
 position = Vector2(-1211.3335, 2717.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree57" parent="." unique_id=1978727661 instance=ExtResource("2_yjop0")]
 position = Vector2(-2098.6667, 3684)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree58" parent="." unique_id=204241533 instance=ExtResource("2_yjop0")]
 position = Vector2(-1074.6665, 3526.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree59" parent="." unique_id=464472228 instance=ExtResource("2_yjop0")]
 position = Vector2(-3498, 3720.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree60" parent="." unique_id=1193890934 instance=ExtResource("2_yjop0")]
 position = Vector2(-2289.3335, 3734.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree61" parent="." unique_id=1083771448 instance=ExtResource("2_yjop0")]
 position = Vector2(-2927.3335, 3664)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree62" parent="." unique_id=183157378 instance=ExtResource("2_yjop0")]
 position = Vector2(-2664.6667, 3558)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree63" parent="." unique_id=1290899373 instance=ExtResource("2_yjop0")]
 position = Vector2(-3552, 4524.667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree64" parent="." unique_id=1162505509 instance=ExtResource("2_yjop0")]
 position = Vector2(-2528, 4367.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree65" parent="." unique_id=689106670 instance=ExtResource("2_yjop0")]
 position = Vector2(-698, 1882)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree66" parent="." unique_id=2032824577 instance=ExtResource("2_yjop0")]
 position = Vector2(-3364.0002, -1292.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree67" parent="." unique_id=2067026513 instance=ExtResource("2_yjop0")]
 position = Vector2(-2155.3335, -1278.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree68" parent="." unique_id=765633282 instance=ExtResource("2_yjop0")]
 position = Vector2(-2793.3335, -1349.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree69" parent="." unique_id=1059333554 instance=ExtResource("2_yjop0")]
 position = Vector2(-2530.667, -1455.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree70" parent="." unique_id=2088527319 instance=ExtResource("2_yjop0")]
 position = Vector2(-3916.0002, -1688.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree71" parent="." unique_id=135146530 instance=ExtResource("2_yjop0")]
 position = Vector2(-1825.3335, -1628.0001)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree72" parent="." unique_id=2036454880 instance=ExtResource("2_yjop0")]
 position = Vector2(-3418.0002, -488.66675)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree73" parent="." unique_id=573086233 instance=ExtResource("2_yjop0")]
 position = Vector2(-2394, -646)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree74" parent="." unique_id=2106221461 instance=ExtResource("2_yjop0")]
 position = Vector2(-1588.6667, -1079.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree75" parent="." unique_id=640615103 instance=ExtResource("2_yjop0")]
 position = Vector2(-564.66675, -1236.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree76" parent="." unique_id=1616207883 instance=ExtResource("2_yjop0")]
 position = Vector2(-1852.0002, -732.66675)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree77" parent="." unique_id=770960618 instance=ExtResource("2_yjop0")]
 position = Vector2(-643.3335, -718.66675)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree78" parent="." unique_id=680839258 instance=ExtResource("2_yjop0")]
 position = Vector2(-1281.3335, -789.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree79" parent="." unique_id=1416322766 instance=ExtResource("2_yjop0")]
 position = Vector2(-1018.667, -895.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree80" parent="." unique_id=1377747081 instance=ExtResource("2_yjop0")]
 position = Vector2(-1906.0002, 71.33325)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree81" parent="." unique_id=1266534261 instance=ExtResource("2_yjop0")]
 position = Vector2(-882, -86)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree82" parent="." unique_id=1170462994 instance=ExtResource("2_yjop0")]
 position = Vector2(-3305.3335, 108)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree83" parent="." unique_id=1313238190 instance=ExtResource("2_yjop0")]
 position = Vector2(-2096.667, 122)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree84" parent="." unique_id=191971445 instance=ExtResource("2_yjop0")]
 position = Vector2(-2734.667, 51.333252)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree85" parent="." unique_id=134659434 instance=ExtResource("2_yjop0")]
 position = Vector2(-2472.0002, -54.666748)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree86" parent="." unique_id=111385031 instance=ExtResource("2_yjop0")]
 position = Vector2(-3359.3335, 912)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree87" parent="." unique_id=1227078388 instance=ExtResource("2_yjop0")]
 position = Vector2(-2335.3335, 754.66675)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree88" parent="." unique_id=1354048038 instance=ExtResource("2_yjop0")]
 position = Vector2(-505.3335, -1730.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree89" parent="." unique_id=204597961 instance=ExtResource("2_yjop0")]
 position = Vector2(848.66675, -2630)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree90" parent="." unique_id=925148383 instance=ExtResource("2_yjop0")]
 position = Vector2(2057.3335, -2616)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree91" parent="." unique_id=1774085448 instance=ExtResource("2_yjop0")]
 position = Vector2(1419.3334, -2686.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree92" parent="." unique_id=568617958 instance=ExtResource("2_yjop0")]
 position = Vector2(1682, -2792.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree93" parent="." unique_id=134312786 instance=ExtResource("2_yjop0")]
 position = Vector2(296.6667, -3026)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree94" parent="." unique_id=1188966864 instance=ExtResource("2_yjop0")]
 position = Vector2(2387.3335, -2965.3335)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree95" parent="." unique_id=1187066145 instance=ExtResource("2_yjop0")]
 position = Vector2(794.66675, -1826)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree96" parent="." unique_id=1606817197 instance=ExtResource("2_yjop0")]
 position = Vector2(1818.6667, -1983.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree97" parent="." unique_id=267288733 instance=ExtResource("2_yjop0")]
 position = Vector2(2624.0002, -2416.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree98" parent="." unique_id=2134689972 instance=ExtResource("2_yjop0")]
 position = Vector2(3648.0002, -2574)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree99" parent="." unique_id=1713298898 instance=ExtResource("2_yjop0")]
 position = Vector2(2360.6667, -2070)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree100" parent="." unique_id=1475485723 instance=ExtResource("2_yjop0")]
 position = Vector2(3569.3335, -2056)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree101" parent="." unique_id=633364748 instance=ExtResource("2_yjop0")]
 position = Vector2(2931.3335, -2126.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree102" parent="." unique_id=2102873208 instance=ExtResource("2_yjop0")]
 position = Vector2(3194, -2232.6667)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree103" parent="." unique_id=591541012 instance=ExtResource("2_yjop0")]
 position = Vector2(2306.6667, -1266)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree104" parent="." unique_id=1109269866 instance=ExtResource("2_yjop0")]
 position = Vector2(3330.667, -1423.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree105" parent="." unique_id=1519707626 instance=ExtResource("2_yjop0")]
 position = Vector2(907.33344, -1229.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree106" parent="." unique_id=733334477 instance=ExtResource("2_yjop0")]
 position = Vector2(2116, -1215.3333)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree107" parent="." unique_id=601768273 instance=ExtResource("2_yjop0")]
 position = Vector2(1478, -1286)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree108" parent="." unique_id=1673051804 instance=ExtResource("2_yjop0")]
 position = Vector2(1740.6666, -1392)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree109" parent="." unique_id=1738025571 instance=ExtResource("2_yjop0")]
 position = Vector2(853.33344, -425.33325)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree110" parent="." unique_id=1208031668 instance=ExtResource("2_yjop0")]
 position = Vector2(1877.3334, -582.6665)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree111" parent="." unique_id=1920226288 instance=ExtResource("2_yjop0")]
 position = Vector2(3707.3335, -3068)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree112" parent="." unique_id=465502433 instance=ExtResource("2_yjop0")]
 position = Vector2(-1001.3335, 1744.6665)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree113" parent="." unique_id=1419051950 instance=ExtResource("2_yjop0")]
 position = Vector2(-296, 1571.9999)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree114" parent="." unique_id=589379951 instance=ExtResource("2_yjop0")]
 position = Vector2(-1637.3335, 499.33325)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree115" parent="." unique_id=2013263463 instance=ExtResource("2_yjop0")]
 position = Vector2(-613.3335, 342)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree116" parent="." unique_id=640102493 instance=ExtResource("2_yjop0")]
 position = Vector2(-1216.6666, 924)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree117" parent="." unique_id=340862926 instance=ExtResource("2_yjop0")]
 position = Vector2(-2006, 1314)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree118" parent="." unique_id=1768639103 instance=ExtResource("2_yjop0")]
 position = Vector2(-2898.6667, 1430.6666)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree119" parent="." unique_id=221472767 instance=ExtResource("2_yjop0")]
 position = Vector2(162.66675, -804)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
 [node name="PineTree120" parent="." unique_id=1738271780 instance=ExtResource("2_yjop0")]
 position = Vector2(132.66667, -1538)
+scale = Vector2(0.165, 0.165)
 collision_layer = 8
 collision_mask = 5
 
