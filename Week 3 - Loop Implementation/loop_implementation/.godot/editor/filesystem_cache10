@@ -1,17 +1,17 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789794297
-2d_game.gd::GDScript::8995211211959508465::1789776205::0::1::::<>Node2D<><>0<>0<><>::
-2D_Game.tscn::PackedScene::5278065556711628546::1789793007::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://2d_game.gd<>uid://dq3r015sr1uql::::res://pine_tree.tscn<>uid://bqy4yx03pxqcm::::res://player.tscn
-cast.gd::GDScript::3489142608771703023::1789791789::0::1::::<>Area2D<><>0<>0<><>::
+::res://::1789795564
+2d_game.gd::GDScript::8995211211959508465::1789795564::0::1::::<>Node2D<><>0<>0<><>::
+2D_Game.tscn::PackedScene::5278065556711628546::1789795564::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://2d_game.gd<>uid://dq3r015sr1uql::::res://pine_tree.tscn<>uid://bqy4yx03pxqcm::::res://player.tscn
+cast.gd::GDScript::3489142608771703023::1789794371::0::1::::<>Area2D<><>0<>0<><>::
 cast.tscn::PackedScene::8625515866347305280::1789791758::0::1::::<><><>0<>0<><>::uid://bpyfw0mh6bsnv::::res://cast.gd
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1789758401::0::1::::<><><>0<>0<><>::
-minion.gd::GDScript::5758805360004656606::1789793865::0::1::::<>CharacterBody2D<><>0<>0<><>::
+minion.gd::GDScript::5758805360004656606::1789794557::0::1::::<>CharacterBody2D<><>0<>0<><>::
 minions.tscn::PackedScene::8961453227268789547::1789794112::0::1::::<><><>0<>0<><>::uid://cobuxho8t81ew::::res://minion.gd<>uid://c0l2uonkail2f::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Attack01.png<>uid://chjn5nhf4uh0a::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Death.png<>uid://d4lwjadq306b7::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Hurt.png<>uid://b4eseugb8jew0::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Summon.png<>uid://7gr7li5tqu4v::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Walk.png
-orc_mob.gd::GDScript::5628357733649123762::1789793712::0::1::::<>CharacterBody2D<><>0<>0<><>::
+orc_mob.gd::GDScript::5628357733649123762::1789795043::0::1::::<>CharacterBody2D<><>0<>0<><>::
 orc_mob.tscn::PackedScene::763081335624571636::1789794102::0::1::::<><><>0<>0<><>::uid://bmpn7fx34mdts::::res://characters/Orc with shadows/Orc_Walk.png<>uid://cmgoh2mvc5gde::::res://orc_mob.gd<>uid://c8vtg7jm5tdit::::res://characters/Orc with shadows/Orc_Attack01.png<>uid://bkq7p3h07q67k::::res://characters/Orc with shadows/Orc_Death.png<>uid://dxdlfn0im6buy::::res://characters/Orc with shadows/Orc_Hurt.png
 pine_tree.tscn::PackedScene::8341164372918984475::1789786345::0::1::::<><><>0<>0<><>::uid://dk5b8a84a6n2h::::res://trees/ground_shadow.png<>uid://bql1cc345qv7d::::res://trees/pine_tree.png
-player.gd::GDScript::1749343896328689169::1789792642::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::3560792147793321976::1789792595::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
+player.gd::GDScript::1749343896328689169::1789794451::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::3560792147793321976::1789794698::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
 spell.gd::GDScript::5143679735126824684::1789791970::0::1::::<>Area2D<><>0<>0<><>::
 spell.tscn::PackedScene::4510038469915135496::1789792326::0::1::::<><><>0<>0<><>::uid://cfjvwhypwf5h5::::res://spell.gd<>uid://ptnxao6ixb2l::::res://characters/Necromancer/Magic(projectile)/Necromancer_Attack02_Effect.png
 summon.gd::GDScript::2914553064254656028::1789793271::0::1::::<>Area2D<><>0<>0<><>::
@@ -21,7 +21,26 @@ summon.tscn::PackedScene::7693194438688065330::1789793978::0::1::::<><><>0<>0<><
 colorpicker_presets.gd::GDScript::2597531570939366545::1789758401::0::1::::<>EditorPlugin<><>0<>1<><>::
 plugin.cfg::TextFile::-1::1789758401::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1789758401::0::1::::<><><>0<>0<><>::
-::res://characters/::1789786345
+::res://characters/::1789795627
+::res://characters/Elite Orc/::1789795627
+::res://characters/Elite Orc/Elite Orc/::1789795627
+Elite Orc.png::CompressedTexture2D::8389497562439031664::1789795627::1789795627::1::::<><><>0<>0<>88d9796be6b6ea70bf3d361ba9d7d1c1<>res://.godot/imported/Elite Orc.png-45cd19306bea2edc5b56446a521dc979.ctex::
+Elite Orc_Attack01.png::CompressedTexture2D::3695892971417877900::1789795627::1789795627::1::::<><><>0<>0<>2061155f08be0d39cf425acaacaa7850<>res://.godot/imported/Elite Orc_Attack01.png-9df7f79330d5373e4a7ec028a6834c38.ctex::
+Elite Orc_Attack02.png::CompressedTexture2D::4048546608173432299::1789795627::1789795627::1::::<><><>0<>0<>81cd307d81d0e762707c4616351b4170<>res://.godot/imported/Elite Orc_Attack02.png-a5aaead19d4146451c8284a0d2a9bf11.ctex::
+Elite Orc_Attack03.png::CompressedTexture2D::1400642470002403453::1789795627::1789795627::1::::<><><>0<>0<>fa58230d97b65f4fcc0504565f6babe2<>res://.godot/imported/Elite Orc_Attack03.png-8568f0a7d945db459d403d7b768cbe64.ctex::
+Elite Orc_Death.png::CompressedTexture2D::3645104494210119914::1789795627::1789795627::1::::<><><>0<>0<>a518760088d5ca619142c664c18f66ad<>res://.godot/imported/Elite Orc_Death.png-698b4f4fd57ee85f78d4597b0250a044.ctex::
+Elite Orc_Hurt.png::CompressedTexture2D::6214595941242694636::1789795627::1789795627::1::::<><><>0<>0<>b5a87c5c9954edfa4b6a385a1175a7c0<>res://.godot/imported/Elite Orc_Hurt.png-ef6b7e5f7567f78e6a256c4757499848.ctex::
+Elite Orc_Idle.png::CompressedTexture2D::8711751256018382080::1789795627::1789795627::1::::<><><>0<>0<>af4945967f2adefcaf470ec5d833259c<>res://.godot/imported/Elite Orc_Idle.png-3f4f9c084a8522093097f766bc737af1.ctex::
+Elite Orc_Walk.png::CompressedTexture2D::7167815365286687438::1789795627::1789795627::1::::<><><>0<>0<>1ca758d4cab4354ead2f94c0daa6238d<>res://.godot/imported/Elite Orc_Walk.png-21da7f250389c756b97808bec5a1d1ef.ctex::
+::res://characters/Elite Orc/Elite Orc with shadows/::1789795627
+Elite Orc.png::CompressedTexture2D::3034955806007435193::1789795627::1789795627::1::::<><><>0<>0<>e45930c5d94b20eb0b30a6925e7aceec<>res://.godot/imported/Elite Orc.png-1636a95bc42a74b68dcc3aff99ae4b8b.ctex::
+Elite Orc_Attack01.png::CompressedTexture2D::8581209095338859354::1789795627::1789795627::1::::<><><>0<>0<>cf245b967edc4f4f93a2985f645beb46<>res://.godot/imported/Elite Orc_Attack01.png-aa0cee050c7db6f598d27e3f2361194e.ctex::
+Elite Orc_Attack02.png::CompressedTexture2D::8905814177247511683::1789795627::1789795627::1::::<><><>0<>0<>48edefc5bb6aa53cc17d8510a41d12d4<>res://.godot/imported/Elite Orc_Attack02.png-8514a89053df65374fa740b2499aca21.ctex::
+Elite Orc_Attack03.png::CompressedTexture2D::1637959054834403380::1789795627::1789795627::1::::<><><>0<>0<>ce68f13756baf45b3270e946b724aa8a<>res://.godot/imported/Elite Orc_Attack03.png-e5173949b9aec0b2a7bc3c96c007fcc1.ctex::
+Elite Orc_Death.png::CompressedTexture2D::8770744378590550291::1789795627::1789795627::1::::<><><>0<>0<>990b109d99a2c2856a8b5afcdc76dce8<>res://.godot/imported/Elite Orc_Death.png-aaf008dac56e58476068b06f1fc475c4.ctex::
+Elite Orc_Hurt.png::CompressedTexture2D::3492549566188864021::1789795627::1789795627::1::::<><><>0<>0<>721d8d2da438d863d5f724191d402814<>res://.godot/imported/Elite Orc_Hurt.png-7cade6962cdd95de4ec753b95f9742c9.ctex::
+Elite Orc_Idle.png::CompressedTexture2D::272045161014386688::1789795627::1789795627::1::::<><><>0<>0<>52e56f42a349a42fe4e334b736ceaeb1<>res://.godot/imported/Elite Orc_Idle.png-f2059641ada2307785f4298e9ec67eb0.ctex::
+Elite Orc_Walk.png::CompressedTexture2D::3752498407085811235::1789795627::1789795627::1::::<><><>0<>0<>d20c962dd9abc10e7289acef923b0c5f<>res://.godot/imported/Elite Orc_Walk.png-117414e8e3584fea54724d4f4286286c.ctex::
 ::res://characters/Necromancer/::1789758401
 ::res://characters/Necromancer/Magic(projectile)/::1789758424
 Necromancer_Attack02_Effect.png::CompressedTexture2D::1092886249110754877::1789758401::1789758424::1::::<><><>0<>0<>3a9a438d2e7fb55a5b62c5c634eb0918<>res://.godot/imported/Necromancer_Attack02_Effect.png-64e9b3fab76277fca42002f037152dca.ctex::

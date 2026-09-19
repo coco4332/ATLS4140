@@ -21,10 +21,11 @@ y_sort_enabled = true
 script = ExtResource("1_yjop0")
 
 [node name="SpawnTimer" type="Timer" parent="." unique_id=933005065]
-wait_time = 0.63
+unique_name_in_owner = true
 autostart = true
 
 [node name="Player" parent="." unique_id=686752001 groups=["friendly_targets"] instance=ExtResource("3_yjop0")]
+unique_name_in_owner = true
 position = Vector2(641.3333, 359.3333)
 scale = Vector2(0.5, 0.5)
 collision_mask = 10
@@ -113,22 +114,13 @@ visible = false
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -337.5
-offset_top = 0.3063507
-offset_right = 340.0
-offset_bottom = 162.30637
+offset_left = -268.0
+offset_right = -64.0
+offset_bottom = 68.0
 grow_horizontal = 2
 theme_override_colors/font_color = Color(0.6666067, 0.6666064, 7.70092e-07, 1)
-theme_override_font_sizes/font_size = 118
+theme_override_font_sizes/font_size = 35
 text = "Leveled Up!"
-autowrap_mode = 1
-
-[node name="PrimaryAttack" type="TextureProgressBar" parent="HUD" unique_id=136836073]
-offset_left = 1759.0
-offset_top = 882.0
-offset_right = 1867.0
-offset_bottom = 963.0
-fill_mode = 4
 
 [node name="LevelNumber" type="Label" parent="HUD" unique_id=93307512]
 unique_name_in_owner = true
@@ -139,6 +131,21 @@ offset_bottom = 1054.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
 text = "1"
+
+[node name="LevelUpBuffs" type="Label" parent="HUD" unique_id=1954926339]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -515.0
+offset_top = 63.0
+offset_right = 179.0
+offset_bottom = 131.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.6666067, 0.6666064, 7.70092e-07, 1)
+theme_override_font_sizes/font_size = 35
+text = "Placeholder"
 
 [node name="PineTree" parent="." unique_id=1873101217 instance=ExtResource("2_yjop0")]
 position = Vector2(914.6667, 157.33333)

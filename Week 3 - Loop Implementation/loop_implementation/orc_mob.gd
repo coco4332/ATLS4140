@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-var health = 3
+var health = 1
 var is_dead = false
-var xp_reward = 10
+var xp_reward = 50
 var target = null
 var is_hurt = false
 var attack_range = 20

@@ -4,10 +4,10 @@ signal health_depleted
 
 var health = 100.0
 var is_attacking = false
-
+var speed_multipler = 1
 func _physics_process(delta: float) -> void:
 	var direction = Input.get_vector("move_left","move_right","move_up","move_down")
-	velocity = direction * 100
+	velocity = direction * 100 * 1
 	move_and_slide()
 	
 	if not is_attacking:
@@ -30,16 +30,12 @@ func attack():
 	await %Necromancer.animation_finished
 	is_attacking = false
 
-
 func _on_spells_casted() -> void:
 	is_attacking = true
 	%Necromancer.play("attack")
 	await %Necromancer.animation_finished
 	is_attacking = false
 	
-
-
-
 func _on_spells_summoned() -> void:
 	is_attacking = true
 	%Necromancer.play("summon")

@@ -3,3 +3,7 @@ res://cast.gd
 res://player.gd
 res://minion.gd
 res://orc_mob.gd
+res://2D_Game.tscn
+res://2d_game.gd
+res://elite_orc.tscn
+res://elite_orc.gd
