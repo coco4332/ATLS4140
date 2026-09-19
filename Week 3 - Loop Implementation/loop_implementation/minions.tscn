@@ -230,6 +230,7 @@ animations = [{
 script = ExtResource("1_i2a15")
 
 [node name="MeleeSkeleton" type="AnimatedSprite2D" parent="." unique_id=700528836]
+unique_name_in_owner = true
 scale = Vector2(4.837, 4.837)
 sprite_frames = SubResource("SpriteFrames_ahyey")
 animation = &"summon"

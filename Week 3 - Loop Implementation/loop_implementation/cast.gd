@@ -17,9 +17,7 @@ func summon():
 	casted.emit()
 	const SUMMON = preload("res://summon.tscn")
 	var summon = SUMMON.instantiate()
-	summon.global_position = %ShootingPoint.global_position
-	summon.global_rotation = %ShootingPoint.global_rotation
-	%ShootingPoint.add_child(summon)
+	get_tree().current_scene.add_child(summon)
 	
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("primary") and $Timer.is_stopped():

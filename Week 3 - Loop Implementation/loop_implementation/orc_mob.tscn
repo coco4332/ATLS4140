@@ -138,7 +138,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_evta1"]
 radius = 86.145226
 
-[node name="OrcMob" type="CharacterBody2D" unique_id=581456501]
+[node name="OrcMob" type="CharacterBody2D" unique_id=581456501 groups=["enemies"]]
 scale = Vector2(0.5, 0.5)
 collision_layer = 2
 collision_mask = 13
