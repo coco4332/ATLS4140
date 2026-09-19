@@ -9,6 +9,8 @@ var attack_cooldown = 1.0
 var can_attack = true
 
 func _physics_process(delta: float) -> void:
+	
+	
 	if is_dead:
 		return
 

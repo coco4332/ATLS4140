@@ -17,7 +17,11 @@ func summon():
 	casted.emit()
 	const SUMMON = preload("res://summon.tscn")
 	var summon = SUMMON.instantiate()
+	summon.spawn_position = get_global_mouse_position()
 	get_tree().current_scene.add_child(summon)
+	var mp = get_global_mouse_position()
+	print("player pos: ", global_position, " | mouse: ", mp)
+	summon.spawn_position = mp
 	
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("primary") and $Timer.is_stopped():
@@ -26,5 +30,7 @@ func _input(event: InputEvent) -> void:
 	
 	if event.is_action_pressed("secondary") and $Timer.is_stopped():
 		summon()
+		var mp = get_global_mouse_position()
+		print("player pos: ", global_position, " | mouse: ", mp)
 		$Timer.start()
 		
