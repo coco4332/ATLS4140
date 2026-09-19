@@ -138,7 +138,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"attack",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -155,7 +155,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"death",
-"speed": 5.0
+"speed": 3.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -172,7 +172,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"hurt",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -192,7 +192,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"summon",
-"speed": 5.0
+"speed": 4.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -225,8 +225,9 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_kj45b"]
+radius = 6.0827627
 
-[node name="Minions" type="CharacterBody2D" unique_id=631957849]
+[node name="Minions" type="CharacterBody2D" unique_id=631957849 groups=["friendly_targets"]]
 script = ExtResource("1_i2a15")
 
 [node name="MeleeSkeleton" type="AnimatedSprite2D" parent="." unique_id=700528836]

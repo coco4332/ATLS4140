@@ -1,21 +1,21 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789786612
+::res://::1789794297
 2d_game.gd::GDScript::8995211211959508465::1789776205::0::1::::<>Node2D<><>0<>0<><>::
-2D_Game.tscn::PackedScene::5278065556711628546::1789785488::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://2d_game.gd<>uid://dq3r015sr1uql::::res://pine_tree.tscn<>uid://bqy4yx03pxqcm::::res://player.tscn
-cast.gd::GDScript::3489142608771703023::1789786617::0::1::::<>Area2D<><>0<>0<><>::
-cast.tscn::PackedScene::8625515866347305280::1789786445::0::1::::<><><>0<>0<><>::uid://bpyfw0mh6bsnv::::res://cast.gd
+2D_Game.tscn::PackedScene::5278065556711628546::1789793007::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://2d_game.gd<>uid://dq3r015sr1uql::::res://pine_tree.tscn<>uid://bqy4yx03pxqcm::::res://player.tscn
+cast.gd::GDScript::3489142608771703023::1789791789::0::1::::<>Area2D<><>0<>0<><>::
+cast.tscn::PackedScene::8625515866347305280::1789791758::0::1::::<><><>0<>0<><>::uid://bpyfw0mh6bsnv::::res://cast.gd
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1789758401::0::1::::<><><>0<>0<><>::
-minion.gd::GDScript::5758805360004656606::1789785525::0::1::::<>CharacterBody2D<><>0<>0<><>::
-minions.tscn::PackedScene::8961453227268789547::1789785525::0::1::::<><><>0<>0<><>::uid://cobuxho8t81ew::::res://minion.gd<>uid://c0l2uonkail2f::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Attack01.png<>uid://chjn5nhf4uh0a::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Death.png<>uid://d4lwjadq306b7::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Hurt.png<>uid://b4eseugb8jew0::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Summon.png<>uid://7gr7li5tqu4v::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Walk.png
-orc_mob.gd::GDScript::5628357733649123762::1789771990::0::1::::<>CharacterBody2D<><>0<>0<><>::
-orc_mob.tscn::PackedScene::763081335624571636::1789785294::0::1::::<><><>0<>0<><>::uid://bmpn7fx34mdts::::res://characters/Orc with shadows/Orc_Walk.png<>uid://cmgoh2mvc5gde::::res://orc_mob.gd<>uid://bkq7p3h07q67k::::res://characters/Orc with shadows/Orc_Death.png<>uid://dxdlfn0im6buy::::res://characters/Orc with shadows/Orc_Hurt.png
+minion.gd::GDScript::5758805360004656606::1789793865::0::1::::<>CharacterBody2D<><>0<>0<><>::
+minions.tscn::PackedScene::8961453227268789547::1789794112::0::1::::<><><>0<>0<><>::uid://cobuxho8t81ew::::res://minion.gd<>uid://c0l2uonkail2f::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Attack01.png<>uid://chjn5nhf4uh0a::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Death.png<>uid://d4lwjadq306b7::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Hurt.png<>uid://b4eseugb8jew0::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Summon.png<>uid://7gr7li5tqu4v::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Walk.png
+orc_mob.gd::GDScript::5628357733649123762::1789793712::0::1::::<>CharacterBody2D<><>0<>0<><>::
+orc_mob.tscn::PackedScene::763081335624571636::1789794102::0::1::::<><><>0<>0<><>::uid://bmpn7fx34mdts::::res://characters/Orc with shadows/Orc_Walk.png<>uid://cmgoh2mvc5gde::::res://orc_mob.gd<>uid://c8vtg7jm5tdit::::res://characters/Orc with shadows/Orc_Attack01.png<>uid://bkq7p3h07q67k::::res://characters/Orc with shadows/Orc_Death.png<>uid://dxdlfn0im6buy::::res://characters/Orc with shadows/Orc_Hurt.png
 pine_tree.tscn::PackedScene::8341164372918984475::1789786345::0::1::::<><><>0<>0<><>::uid://dk5b8a84a6n2h::::res://trees/ground_shadow.png<>uid://bql1cc345qv7d::::res://trees/pine_tree.png
-player.gd::GDScript::1749343896328689169::1789786295::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::3560792147793321976::1789786450::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
-summon.gd::GDScript::2914553064254656028::1789786216::0::1::::<>Area2D<><>0<>0<><>::
-spell.gd::GDScript::5143679735126824684::1789776024::0::1::::<>Area2D<><>0<>0<><>::
-spell.tscn::PackedScene::4510038469915135496::1789786439::0::1::::<><><>0<>0<><>::uid://cfjvwhypwf5h5::::res://spell.gd<>uid://ptnxao6ixb2l::::res://characters/Necromancer/Magic(projectile)/Necromancer_Attack02_Effect.png
-summon.tscn::PackedScene::7693194438688065330::1789786617::0::1::::<><><>0<>0<><>::uid://bhr3i7gyp2vd1::::res://summon_effect.gd<>uid://bjicrup0qfa41::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Sumon_Effect.png
+player.gd::GDScript::1749343896328689169::1789792642::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::3560792147793321976::1789792595::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
+spell.gd::GDScript::5143679735126824684::1789791970::0::1::::<>Area2D<><>0<>0<><>::
+spell.tscn::PackedScene::4510038469915135496::1789792326::0::1::::<><><>0<>0<><>::uid://cfjvwhypwf5h5::::res://spell.gd<>uid://ptnxao6ixb2l::::res://characters/Necromancer/Magic(projectile)/Necromancer_Attack02_Effect.png
+summon.gd::GDScript::2914553064254656028::1789793271::0::1::::<>Area2D<><>0<>0<><>::
+summon.tscn::PackedScene::7693194438688065330::1789793978::0::1::::<><><>0<>0<><>::uid://bhr3i7gyp2vd1::::res://summon.gd<>uid://bjicrup0qfa41::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Sumon_Effect.png
 ::res://addons/::1789758401
 ::res://addons/colorpicker_presets/::1789758401
 colorpicker_presets.gd::GDScript::2597531570939366545::1789758401::0::1::::<>EditorPlugin<><>0<>1<><>::

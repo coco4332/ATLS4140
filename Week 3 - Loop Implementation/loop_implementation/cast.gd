@@ -1,6 +1,7 @@
 extends Area2D
 
 signal casted
+signal summoned
 
 func _physics_process(delta: float) -> void:
 	look_at(get_global_mouse_position())
@@ -13,7 +14,7 @@ func shoot():
 	get_tree().current_scene.add_child(spell)
 
 func summon():
-	casted.emit()
+	summoned.emit()
 	const SUMMON = preload("res://summon.tscn")
 	var summon = SUMMON.instantiate()
 	summon.spawn_position = get_global_mouse_position()

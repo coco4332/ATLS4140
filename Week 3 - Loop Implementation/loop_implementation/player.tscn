@@ -226,9 +226,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_khis8")
 }],
-"loop": 1,
+"loop": 0,
 "name": &"summon",
-"speed": 10.0
+"speed": 9.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -293,7 +293,7 @@ shape = SubResource("CircleShape2D_6uie5")
 scale = Vector2(1.5, 1.5)
 zoom = Vector2(5.625, 5.625)
 
-[node name="Gun" parent="." unique_id=1810494907 instance=ExtResource("3_xrodo")]
+[node name="Spells" parent="." unique_id=1810494907 instance=ExtResource("3_xrodo")]
 scale = Vector2(1.5, 1.5)
 
 [node name="HurtBox" type="Area2D" parent="." unique_id=549307226]
@@ -323,3 +323,6 @@ show_percentage = false
 
 [node name="Timer" type="Timer" parent="." unique_id=1649931926]
 one_shot = true
+
+[connection signal="casted" from="Spells" to="." method="_on_spells_casted"]
+[connection signal="summoned" from="Spells" to="." method="_on_spells_summoned"]

@@ -31,8 +31,17 @@ func attack():
 	is_attacking = false
 
 
-func _on_gun_fired() -> void:
+func _on_spells_casted() -> void:
 	is_attacking = true
 	%Necromancer.play("attack")
+	await %Necromancer.animation_finished
+	is_attacking = false
+	
+
+
+
+func _on_spells_summoned() -> void:
+	is_attacking = true
+	%Necromancer.play("summon")
 	await %Necromancer.animation_finished
 	is_attacking = false

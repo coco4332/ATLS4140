@@ -1,10 +1,10 @@
 extends CharacterBody2D
 
-var health = 2
+var health = 3
 var is_dead = false
 var xp_reward = 10
 var target = null
-
+var is_hurt = false
 var attack_range = 20
 var attack_cooldown = 1.0
 var can_attack = true
@@ -15,7 +15,7 @@ func _ready():
 	%Orc.play("walk")
 
 func _physics_process(delta: float) -> void:
-	if is_dead:
+	if is_dead or is_hurt:
 		return
 
 	target = get_nearest_target()
@@ -75,6 +75,9 @@ func take_damage():
 		died.emit(xp_reward)
 		die()
 	else:
+		is_hurt = true
+		velocity = Vector2.ZERO
 		%Orc.play("hurt")
 		await %Orc.animation_finished
+		is_hurt = false
 		%Orc.play("walk")

@@ -117,7 +117,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"attack",
-"speed": 10.0
+"speed": 9.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -134,7 +134,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"death",
-"speed": 6.0
+"speed": 3.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -151,7 +151,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"hurt",
-"speed": 10.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -180,11 +180,11 @@ animations = [{
 }],
 "loop": 1,
 "name": &"walk",
-"speed": 10.0
+"speed": 7.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_evta1"]
-radius = 9.0
+radius = 6.0
 
 [node name="OrcMob" type="CharacterBody2D" unique_id=581456501 groups=["enemies"]]
 collision_layer = 2
@@ -194,8 +194,9 @@ script = ExtResource("1_f8qay")
 [node name="Orc" type="AnimatedSprite2D" parent="." unique_id=140784848]
 unique_name_in_owner = true
 sprite_frames = SubResource("SpriteFrames_ahyey")
-animation = &"walk"
+animation = &"attack"
 autoplay = "walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1882917889]
+position = Vector2(1, 0)
 shape = SubResource("CircleShape2D_evta1")

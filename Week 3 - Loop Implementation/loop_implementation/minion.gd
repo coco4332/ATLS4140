@@ -1,11 +1,11 @@
 extends CharacterBody2D
 
-var health = 4
+var health = 2
 var is_dead = false
 var target = null
 var is_summoning = true
-
-var attack_range = 30
+var is_hurt = false
+var attack_range = 20
 var attack_cooldown = 0.5
 var can_attack = true
 
@@ -17,7 +17,7 @@ func _ready() -> void:
 	%MeleeSkeleton.play("walk")
 	
 func _physics_process(delta: float) -> void:
-	if is_dead or is_summoning:
+	if is_dead or is_summoning or is_hurt:
 		return
 
 	target = get_nearest_enemy()
@@ -43,14 +43,13 @@ func _physics_process(delta: float) -> void:
 func attack(enemy):
 	can_attack = false
 	%MeleeSkeleton.play("attack")
-
-	# wait for the swing to connect, then deal damage
 	await %MeleeSkeleton.animation_finished
+	
 
 	# check the enemy still exists before damaging (it may have died)
 	if is_instance_valid(enemy) and enemy.has_method("take_damage"):
 		enemy.take_damage()
-
+	
 	%MeleeSkeleton.play("walk")
 
 	# cooldown before next attack
@@ -75,8 +74,11 @@ func take_damage():
 	if health <= 0:
 		die()
 	else:
+		is_hurt = true
 		%MeleeSkeleton.play("hurt")
+		velocity = Vector2(0,0)
 		await %MeleeSkeleton.animation_finished
+		is_hurt = false
 		%MeleeSkeleton.play("walk")
 		
 func die():
