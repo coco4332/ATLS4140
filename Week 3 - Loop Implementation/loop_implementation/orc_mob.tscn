@@ -141,7 +141,7 @@ radius = 86.145226
 [node name="OrcMob" type="CharacterBody2D" unique_id=581456501]
 scale = Vector2(0.5, 0.5)
 collision_layer = 2
-collision_mask = 5
+collision_mask = 13
 script = ExtResource("1_f8qay")
 
 [node name="Orc" type="AnimatedSprite2D" parent="." unique_id=140784848]

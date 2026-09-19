@@ -6,3 +6,12 @@ res://2D_Game.tscn
 res://2d_game.gd
 res://orc_mob.gd
 res://orc_mob.tscn
+res://bullet.gd
+res://minion.gd
+res://minions.tscn
+res://summon_effect.tscn
+res://summon_effect.gd
+res://summon_spell.tscn
+res://summon.tscn
+res://cast.gd
+res://summon.gd

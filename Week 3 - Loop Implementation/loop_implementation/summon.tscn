@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://dhuv12n452xne"]
+
+[ext_resource type="Script" uid="uid://bhr3i7gyp2vd1" path="res://summon.gd" id="1_5opn1"]
+[ext_resource type="Texture2D" uid="uid://bjicrup0qfa41" path="res://characters/Necromancer/Necromancer with shadows/Necromancer_Sumon_Effect.png" id="2_78yke"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ybcrs"]
+atlas = ExtResource("2_78yke")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tb1yp"]
+atlas = ExtResource("2_78yke")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_73brv"]
+atlas = ExtResource("2_78yke")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oxqmc"]
+atlas = ExtResource("2_78yke")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bt4nx"]
+atlas = ExtResource("2_78yke")
+region = Rect2(400, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vcrwq"]
+atlas = ExtResource("2_78yke")
+region = Rect2(500, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qu8gx"]
+atlas = ExtResource("2_78yke")
+region = Rect2(600, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kj45b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ybcrs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tb1yp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_73brv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oxqmc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bt4nx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vcrwq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qu8gx")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ahyey"]
+radius = 14.035668
+
+[node name="Summon" type="Area2D" unique_id=592620453]
+script = ExtResource("1_5opn1")
+
+[node name="SummonCircle" type="AnimatedSprite2D" parent="." unique_id=1945336833]
+sprite_frames = SubResource("SpriteFrames_kj45b")
+frame = 6
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1278374411]
+position = Vector2(1, 6)
+shape = SubResource("CircleShape2D_ahyey")

@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-var health = 3
+var health = 2
 var is_dead = false
-var xp_reward = 5
+var xp_reward = 10
 @onready var player = get_node("/root/Game/Player")
 
 signal died(xp_value)
@@ -36,3 +36,8 @@ func take_damage():
 		%Orc.play("hurt")
 		await %Orc.animation_finished 
 		%Orc.play("walk")
+
+
+	
+	
+	

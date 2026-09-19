@@ -2,7 +2,6 @@ extends CharacterBody2D
 
 signal health_depleted
 
-
 var health = 100.0
 var is_attacking = false
 
