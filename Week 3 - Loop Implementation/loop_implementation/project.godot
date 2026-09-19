@@ -97,6 +97,7 @@ enabled=PackedStringArray("res://addons/colorpicker_presets/plugin.cfg")
 [global_group]
 
 enemies=""
+friendly_targets=""
 
 [input]
 

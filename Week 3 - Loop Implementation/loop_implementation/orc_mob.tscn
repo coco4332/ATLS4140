@@ -2,8 +2,33 @@
 
 [ext_resource type="Texture2D" uid="uid://bmpn7fx34mdts" path="res://characters/Orc with shadows/Orc_Walk.png" id="1_evta1"]
 [ext_resource type="Script" uid="uid://cmgoh2mvc5gde" path="res://orc_mob.gd" id="1_f8qay"]
+[ext_resource type="Texture2D" uid="uid://c8vtg7jm5tdit" path="res://characters/Orc with shadows/Orc_Attack01.png" id="2_5c1o5"]
 [ext_resource type="Texture2D" uid="uid://bkq7p3h07q67k" path="res://characters/Orc with shadows/Orc_Death.png" id="2_gm0pe"]
 [ext_resource type="Texture2D" uid="uid://dxdlfn0im6buy" path="res://characters/Orc with shadows/Orc_Hurt.png" id="3_5c1o5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ev1c2"]
+atlas = ExtResource("2_5c1o5")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tge6k"]
+atlas = ExtResource("2_5c1o5")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ktaf0"]
+atlas = ExtResource("2_5c1o5")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_knoed"]
+atlas = ExtResource("2_5c1o5")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dbyy8"]
+atlas = ExtResource("2_5c1o5")
+region = Rect2(400, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ukeeh"]
+atlas = ExtResource("2_5c1o5")
+region = Rect2(500, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lbkc1"]
 atlas = ExtResource("2_gm0pe")
@@ -73,6 +98,29 @@ region = Rect2(700, 0, 100, 100)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_ev1c2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tge6k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ktaf0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_knoed")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dbyy8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ukeeh")
+}],
+"loop": 0,
+"name": &"attack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_lbkc1")
 }, {
 "duration": 1.0,
@@ -132,7 +180,7 @@ animations = [{
 }],
 "loop": 1,
 "name": &"walk",
-"speed": 6.0
+"speed": 10.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_evta1"]
@@ -146,10 +194,8 @@ script = ExtResource("1_f8qay")
 [node name="Orc" type="AnimatedSprite2D" parent="." unique_id=140784848]
 unique_name_in_owner = true
 sprite_frames = SubResource("SpriteFrames_ahyey")
-animation = &"hurt"
+animation = &"walk"
 autoplay = "walk"
-frame = 3
-frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1882917889]
 shape = SubResource("CircleShape2D_evta1")

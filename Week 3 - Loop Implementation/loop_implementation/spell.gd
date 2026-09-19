@@ -1,36 +1,25 @@
 extends Area2D
 
-var travelled_distance = 0
-var hit = false
+var spawn_position = Vector2.ZERO
 
-func _physics_process(delta: float) -> void:
+func _ready() -> void:
+	await get_tree().process_frame
+	global_position = spawn_position
+
+	# no travel, no waiting for contact -- explode right where it landed
 	%Spell.play("default")
-	if hit:
-		return
-	var SPEED = 100
-	var RANGE = 120
+	await explode()
 
-	var direction = Vector2.RIGHT.rotated(rotation)
-	position += direction * SPEED * delta
-	%Spell.global_rotation = 0
+	# let the cast animation finish, then clean up
 	await %Spell.animation_finished
 	queue_free()
-
-func _on_body_entered(body: Node2D) -> void:
-	if hit:
-		return
-	hit = true
-	%CollisionShape2D.set_deferred("disabled", true)
-	await explode()
 
 func explode() -> void:
 	%BlastArea/CollisionShape2D.set_deferred("disabled", false)
 	await get_tree().physics_frame
 	await get_tree().physics_frame
-	
-	var bodies = %BlastArea.get_overlapping_bodies()
 
+	var bodies = %BlastArea.get_overlapping_bodies()
 	for target in bodies:
 		if target.has_method("take_damage"):
 			target.take_damage()
-	

@@ -1,15 +1,16 @@
 extends CharacterBody2D
 
-var health = 2
+var health = 4
 var is_dead = false
 var target = null
 var is_summoning = true
 
-var attack_range = 10
-var attack_cooldown = 1.0
+var attack_range = 30
+var attack_cooldown = 0.5
 var can_attack = true
 
 func _ready() -> void:
+	add_to_group("friendly_targets")
 	%MeleeSkeleton.play("summon")
 	await %MeleeSkeleton.animation_finished
 	is_summoning = false
@@ -34,7 +35,7 @@ func _physics_process(delta: float) -> void:
 	else:
 		# Out of range: chase
 		var direction = global_position.direction_to(target.global_position)
-		velocity = direction * 30
+		velocity = direction * 80
 		if %MeleeSkeleton.animation != "attack":
 			%MeleeSkeleton.play("walk")
 	move_and_slide()

@@ -6,9 +6,9 @@
 
 [sub_resource type="Curve2D" id="Curve2D_mdfd4"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -89.030235, -118.23345, 0, 0, 0, 0, 2772.4858, -104.699234, 0, 0, 0, 0, 2763.6885, 1591.8247, 0, 0, 0, 0, -81.003845, 1586.5563, 0, 0, 0, 0, -93, 512, 0, 0, 0, 0, -84, -107)
+"points": PackedVector2Array(0, 0, 0, 0, -859.5697, -626.53876, 0, 0, 0, 0, 169.94043, -630.05206, 0, 0, 0, 0, 867.2446, -615.9989, 0, 0, 0, 0, 877.11206, 606.6301, 0, 0, 0, 0, 28.506104, 603.1168)
 }
-point_count = 6
+point_count = 5
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gm0pe"]
 bg_color = Color(0.39215687, 0.40784314, 0.4117647, 0.92156863)
@@ -24,21 +24,20 @@ script = ExtResource("1_yjop0")
 wait_time = 0.63
 autostart = true
 
-[node name="Player" parent="." unique_id=686752001 instance=ExtResource("3_yjop0")]
+[node name="Player" parent="." unique_id=686752001 groups=["friendly_targets"] instance=ExtResource("3_yjop0")]
 position = Vector2(641.3333, 359.3333)
 scale = Vector2(0.5, 0.5)
 collision_mask = 10
 
 [node name="Path2D" type="Path2D" parent="Player" unique_id=105313044]
-position = Vector2(-1684.9506, -998.52893)
-scale = Vector2(1.6671985, 1.7714652)
+scale = Vector2(0.6080561, 0.56926507)
 curve = SubResource("Curve2D_mdfd4")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D" unique_id=1856081230]
 unique_name_in_owner = true
 visible = false
-position = Vector2(-89.030235, -118.23345)
-rotation = 0.0047297017
+position = Vector2(-859.5697, -626.53876)
+rotation = -0.0034125862
 
 [node name="Background" type="CanvasLayer" parent="." unique_id=326837066]
 layer = -1

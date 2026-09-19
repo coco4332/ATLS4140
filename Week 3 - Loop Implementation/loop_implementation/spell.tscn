@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ptnxao6ixb2l" path="res://characters/Necromancer/Magic(projectile)/Necromancer_Attack02_Effect.png" id="2_v8qja"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ahyey"]
-radius = 5.5926113
+radius = 12.0415945
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t4vbm"]
 atlas = ExtResource("2_v8qja")
@@ -53,7 +53,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"default",
-"speed": 7.0
+"speed": 10.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_kj45b"]
@@ -83,6 +83,7 @@ collision_layer = 0
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BlastArea" unique_id=917805167]
+position = Vector2(0, -6)
 shape = SubResource("CircleShape2D_kj45b")
 disabled = true
 debug_color = Color(0.99999994, 0.0150773665, 0.030773455, 0.41960785)
