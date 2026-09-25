@@ -1,9 +1,8 @@
-res://player.tscn
-res://cast.gd
-res://player.gd
-res://minion.gd
-res://orc_mob.gd
 res://2D_Game.tscn
+res://orc_mob.tscn
+res://soldier_player.tscn
+res://soldier_player.gd
 res://2d_game.gd
-res://elite_orc.tscn
-res://elite_orc.gd
+res://orc_mob.gd
+res://pine_tree.tscn
+res://player.gd
