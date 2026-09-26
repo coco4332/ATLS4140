@@ -5,7 +5,7 @@ var spawn_position = Vector2.ZERO
 func _ready() -> void:
 	await get_tree().process_frame
 	global_position = spawn_position
-
+	
 	# no travel, no waiting for contact -- explode right where it landed
 	%Spell.play("default")
 	await explode()
@@ -15,6 +15,7 @@ func _ready() -> void:
 	queue_free()
 
 func explode() -> void:
+	
 	%BlastArea/CollisionShape2D.set_deferred("disabled", false)
 	await get_tree().physics_frame
 	await get_tree().physics_frame

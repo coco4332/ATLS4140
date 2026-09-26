@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://b5ixw66oaedki"]
 
-[ext_resource type="Script" uid="uid://cfjvwhypwf5h5" path="res://Scenes/spell.gd" id="1_v8qja"]
+[ext_resource type="Script" uid="uid://cfjvwhypwf5h5" path="res://scenes/spell.gd" id="1_v8qja"]
 [ext_resource type="Texture2D" uid="uid://ptnxao6ixb2l" path="res://characters/Necromancer/Magic(projectile)/Necromancer_Attack02_Effect.png" id="2_v8qja"]
-
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ahyey"]
 radius = 12.0415945

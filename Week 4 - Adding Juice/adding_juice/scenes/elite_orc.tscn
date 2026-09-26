@@ -6,6 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://bp021s64arwrt" path="res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Hurt.png" id="4_d7fle"]
 [ext_resource type="Texture2D" uid="uid://d41sq6tdngui" path="res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Idle.png" id="5_h1te2"]
 [ext_resource type="Texture2D" uid="uid://btp0dog0t8rw2" path="res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Walk.png" id="6_iq58x"]
+[ext_resource type="AudioStream" uid="uid://bj0dymahdx88c" path="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/Spell Impact 1.ogg" id="7_ja2ag"]
+[ext_resource type="AudioStream" uid="uid://c6va5a2a1426c" path="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/Spell Impact 3.ogg" id="8_6206x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4fcmu"]
 atlas = ExtResource("2_onwir")
@@ -254,3 +256,13 @@ animation = &"walk"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2140524427]
 position = Vector2(0, -7)
 shape = SubResource("CircleShape2D_kj45b")
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="." unique_id=208054972]
+unique_name_in_owner = true
+stream = ExtResource("7_ja2ag")
+volume_db = -10.0
+
+[node name="DeathSound" type="AudioStreamPlayer2D" parent="." unique_id=1006015629]
+unique_name_in_owner = true
+stream = ExtResource("8_6206x")
+volume_db = -10.0

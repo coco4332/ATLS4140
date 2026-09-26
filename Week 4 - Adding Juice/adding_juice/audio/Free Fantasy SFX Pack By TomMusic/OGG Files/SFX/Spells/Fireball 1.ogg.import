@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://kilnr5otxaq4"
+path="res://.godot/imported/Fireball 1.ogg-cfe10b4b4852a78bf9200efd66779185.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/Fireball 1.ogg"
+dest_files=["res://.godot/imported/Fireball 1.ogg-cfe10b4b4852a78bf9200efd66779185.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

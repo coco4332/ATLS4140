@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://du5i8r7jdycua"]
 
 [ext_resource type="Script" uid="uid://bpyfw0mh6bsnv" path="res://scenes/cast.gd" id="1_dk5gl"]
+[ext_resource type="AudioStream" uid="uid://kilnr5otxaq4" path="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/Fireball 1.ogg" id="2_ibr6v"]
+[ext_resource type="AudioStream" uid="uid://cj1nccl4ra8gj" path="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/Firebuff 1.ogg" id="3_1q322"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vk1bi"]
 radius = 12.0
@@ -19,5 +21,19 @@ shape = SubResource("CircleShape2D_vk1bi")
 
 [node name="SummonTimer" type="Timer" parent="." unique_id=798280181]
 one_shot = true
+
+[node name="PrimaryCast" type="AudioStreamPlayer2D" parent="." unique_id=967828730]
+unique_name_in_owner = true
+stream = ExtResource("2_ibr6v")
+volume_db = -10.0
+autoplay = true
+bus = &"SFX"
+
+[node name="SecondaryCast" type="AudioStreamPlayer2D" parent="." unique_id=595185866]
+unique_name_in_owner = true
+stream = ExtResource("3_1q322")
+volume_db = -10.0
+autoplay = true
+bus = &"SFX"
 
 [connection signal="timeout" from="SpellTimer" to="." method="_on_timer_timeout"]

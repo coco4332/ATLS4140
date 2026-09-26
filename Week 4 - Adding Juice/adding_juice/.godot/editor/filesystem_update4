@@ -1,0 +1,15 @@
+res://Scenes/2D_Game.tscn
+res://Background.tres
+res://scenes/summon.tscn
+res://scenes/default_bus_layout.tres
+res://scenes/spell.tscn
+res://scenes/spell.gd
+res://scenes/cast.gd
+res://scenes/cast.tscn
+res://scenes/minions.tscn
+res://scenes/elite_orc.gd
+res://scenes/minion.gd
+res://scenes/orc_mob.gd
+res://scenes/elite_orc.tscn
+res://scenes/orc_mob.tscn
+res://scenes/player.gd

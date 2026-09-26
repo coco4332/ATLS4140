@@ -22,6 +22,8 @@ func _physics_process(delta: float) -> void:
 	
 	if not is_attacking:
 		if velocity.length() > 0.0:
+			if not %WalkSound.playing:
+				%WalkSound.play
 			%Necromancer.play("walk")
 		else:
 			%Necromancer.play("idle")
@@ -30,6 +32,8 @@ func _physics_process(delta: float) -> void:
 	var overlapping_mobs = %HurtBox.get_overlapping_bodies()
 	if overlapping_mobs.size() > 0:
 		health -= DAMAGE_RATE * overlapping_mobs.size()*delta
+		if not %HitSound.playing:
+			%HitSound.play()
 		%HealthBar.value = health
 		if health <= 0.0:
 			health_depleted.emit()

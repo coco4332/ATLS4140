@@ -75,6 +75,7 @@ func take_damage():
 		die()
 	else:
 		is_hurt = true
+		%HitSound.play()
 		%MeleeSkeleton.play("hurt")
 		velocity = Vector2(0,0)
 		await %MeleeSkeleton.animation_finished
@@ -84,6 +85,7 @@ func take_damage():
 func die():
 	is_dead = true
 	set_physics_process(false)
+	%DeathSound.play()
 	%MeleeSkeleton.play("death")
 	await %MeleeSkeleton.animation_finished 
 	queue_free()

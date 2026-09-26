@@ -80,7 +80,7 @@ config/features=PackedStringArray("4.7", "Forward Plus")
 
 [audio]
 
-buses/default_bus_layout="res://Scenes/default_bus_layout.tres"
+buses/default_bus_layout="res://scenes/default_bus_layout.tres"
 
 [display]
 

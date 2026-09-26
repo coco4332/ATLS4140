@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://dhuv12n452xne"]
 
-[ext_resource type="Script" uid="uid://bhr3i7gyp2vd1" path="res://Scenes/summon.gd" id="1_5opn1"]
+[ext_resource type="Script" uid="uid://bhr3i7gyp2vd1" path="res://scenes/summon.gd" id="1_5opn1"]
 [ext_resource type="Texture2D" uid="uid://bjicrup0qfa41" path="res://characters/Necromancer/Necromancer with shadows/Necromancer_Sumon_Effect.png" id="2_78yke"]
-
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ybcrs"]
 atlas = ExtResource("2_78yke")
@@ -69,7 +68,9 @@ script = ExtResource("1_5opn1")
 
 [node name="SummonCircle" type="AnimatedSprite2D" parent="." unique_id=1945336833]
 unique_name_in_owner = true
+position = Vector2(0, -6)
 sprite_frames = SubResource("SpriteFrames_kj45b")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1278374411]
+position = Vector2(0, -6)
 shape = SubResource("CircleShape2D_ahyey")

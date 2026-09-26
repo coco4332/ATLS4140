@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://chgy76xhxi5na"]
 
-[ext_resource type="Script" uid="uid://d1fl2xq6ccyab" path="res://Scenes/2d_game.gd" id="1_yjop0"]
-[ext_resource type="PackedScene" uid="uid://dq3r015sr1uql" path="res://Scenes/pine_tree.tscn" id="2_yjop0"]
-[ext_resource type="PackedScene" uid="uid://bqy4yx03pxqcm" path="res://Scenes/player.tscn" id="3_yjop0"]
+[ext_resource type="Script" uid="uid://d1fl2xq6ccyab" path="res://scenes/2d_game.gd" id="1_yjop0"]
+[ext_resource type="PackedScene" uid="uid://dq3r015sr1uql" path="res://scenes/pine_tree.tscn" id="2_yjop0"]
+[ext_resource type="PackedScene" uid="uid://bqy4yx03pxqcm" path="res://scenes/player.tscn" id="3_yjop0"]
 
 [sub_resource type="Curve2D" id="Curve2D_mdfd4"]
 _data = {

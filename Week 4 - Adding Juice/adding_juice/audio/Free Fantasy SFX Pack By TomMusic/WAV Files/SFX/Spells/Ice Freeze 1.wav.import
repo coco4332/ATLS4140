@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://mu5wipoblc0t"
+path="res://.godot/imported/Ice Freeze 1.wav-dcc04aa3a9a910be3c2858f3335e23bd.sample"
+
+[deps]
+
+source_file="res://audio/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Spells/Ice Freeze 1.wav"
+dest_files=["res://.godot/imported/Ice Freeze 1.wav-dcc04aa3a9a910be3c2858f3335e23bd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

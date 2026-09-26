@@ -64,6 +64,7 @@ func get_nearest_target():
 func die():
 	is_dead = true
 	set_physics_process(false)
+	%DeathSound.play()
 	%EliteOrc.play("death")
 	await %EliteOrc.animation_finished
 	queue_free()
@@ -78,6 +79,7 @@ func take_damage():
 	else:
 		is_hurt = true
 		velocity = Vector2.ZERO
+		%HitSound.play()
 		%EliteOrc.play("hurt")
 		await %EliteOrc.animation_finished
 		is_hurt = false

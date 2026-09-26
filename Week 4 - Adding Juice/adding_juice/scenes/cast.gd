@@ -8,6 +8,7 @@ func _physics_process(delta: float) -> void:
 	look_at(get_global_mouse_position())
 		
 func shoot():
+	
 	casted.emit()
 	const SPELL = preload("res://scenes/spell.tscn")
 	var spell = SPELL.instantiate()
@@ -23,11 +24,13 @@ func summon():
 	
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("primary") and $SpellTimer.is_stopped():
+		%PrimaryCast.play()
 		shoot()
 		$SpellTimer.start()
 		cooldown_started.emit("spell", $SpellTimer.wait_time)
 
 	if event.is_action_pressed("secondary") and $SummonTimer.is_stopped():
+		%SecondaryCast.play()
 		summon()
 		$SummonTimer.start()
 		cooldown_started.emit("summon", $SummonTimer.wait_time)

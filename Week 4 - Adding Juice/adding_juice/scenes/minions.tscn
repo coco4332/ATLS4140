@@ -6,6 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://d4lwjadq306b7" path="res://characters/Skeleton/Skeleton with shadows/Skeleton_Hurt.png" id="4_tq8t3"]
 [ext_resource type="Texture2D" uid="uid://b4eseugb8jew0" path="res://characters/Skeleton/Skeleton with shadows/Skeleton_Summon.png" id="5_254yc"]
 [ext_resource type="Texture2D" uid="uid://7gr7li5tqu4v" path="res://characters/Skeleton/Skeleton with shadows/Skeleton_Walk.png" id="6_bc1bi"]
+[ext_resource type="AudioStream" uid="uid://c33gq0klo45v" path="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 3.ogg" id="7_ljtau"]
+[ext_resource type="AudioStream" uid="uid://cu8b6cmlaovuw" path="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/Sword Impact Hit 2.ogg" id="8_uxn41"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4b8ju"]
 atlas = ExtResource("2_3rkw7")
@@ -241,3 +243,11 @@ autoplay = "summon"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=322350405]
 position = Vector2(0, -6)
 shape = SubResource("CircleShape2D_kj45b")
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="." unique_id=370651280]
+unique_name_in_owner = true
+stream = ExtResource("7_ljtau")
+
+[node name="DeathSound" type="AudioStreamPlayer2D" parent="." unique_id=297214643]
+unique_name_in_owner = true
+stream = ExtResource("8_uxn41")

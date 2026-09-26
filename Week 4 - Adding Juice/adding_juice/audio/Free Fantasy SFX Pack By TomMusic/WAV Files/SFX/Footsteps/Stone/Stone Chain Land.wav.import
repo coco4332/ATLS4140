@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ds7bty38pajbk"
+path="res://.godot/imported/Stone Chain Land.wav-0f8893a98041b415599e6de2fd205add.sample"
+
+[deps]
+
+source_file="res://audio/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Stone/Stone Chain Land.wav"
+dest_files=["res://.godot/imported/Stone Chain Land.wav-0f8893a98041b415599e6de2fd205add.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
