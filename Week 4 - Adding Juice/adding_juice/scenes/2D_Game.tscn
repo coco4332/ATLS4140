@@ -3,12 +3,21 @@
 [ext_resource type="Script" uid="uid://d1fl2xq6ccyab" path="res://scenes/2d_game.gd" id="1_yjop0"]
 [ext_resource type="Script" uid="uid://coovqwnqh4asp" path="res://Scenes/hud.gd" id="3_ji6u6"]
 [ext_resource type="PackedScene" uid="uid://bqy4yx03pxqcm" path="res://scenes/player.tscn" id="3_yjop0"]
+[ext_resource type="Texture2D" uid="uid://b4b47w4ffroe5" path="res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Full Spritesheet/32x32.png" id="4_88ra5"]
 
 [sub_resource type="Curve2D" id="Curve2D_mdfd4"]
 _data = {
 "points": PackedVector2Array(0, 0, 0, 0, -859.5697, -626.53876, 0, 0, 0, 0, 169.94043, -630.05206, 0, 0, 0, 0, 867.2446, -615.9989, 0, 0, 0, 0, 877.11206, 606.6301, 0, 0, 0, 0, 28.506104, 603.1168)
 }
 point_count = 5
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48546"]
+atlas = ExtResource("4_88ra5")
+region = Rect2(256, 1536, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m4xs2"]
+atlas = ExtResource("4_88ra5")
+region = Rect2(416, 1696, 32, 32)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ogr1"]
 bg_color = Color(0.15294118, 0.16862746, 0.1882353, 1)
@@ -63,6 +72,7 @@ anchor_right = -0.083333336
 anchor_bottom = -0.10462963
 offset_right = 2080.0
 offset_bottom = 1193.0
+scale = Vector2(1.0022131, 1.0578046)
 metadata/_edit_use_anchors_ = true
 
 [node name="HUD" type="CanvasLayer" parent="." unique_id=971402997]
@@ -78,11 +88,35 @@ offset_top = -35.0
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HUD/MarginContainer" unique_id=241197755]
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/MarginContainer" unique_id=500925434]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="AbilityBar" type="HBoxContainer" parent="HUD/MarginContainer/VBoxContainer" unique_id=1228116494]
+layout_mode = 2
+size_flags_horizontal = 8
+
+[node name="SpellSlot" type="TextureProgressBar" parent="HUD/MarginContainer/VBoxContainer/AbilityBar" unique_id=860567224]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+nine_patch_stretch = true
+texture_under = SubResource("AtlasTexture_48546")
+texture_progress = SubResource("AtlasTexture_48546")
+
+[node name="SummonSlot" type="TextureProgressBar" parent="HUD/MarginContainer/VBoxContainer/AbilityBar" unique_id=1677090487]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+nine_patch_stretch = true
+texture_under = SubResource("AtlasTexture_m4xs2")
+texture_progress = SubResource("AtlasTexture_m4xs2")
+
+[node name="BottomHUD" type="HBoxContainer" parent="HUD/MarginContainer/VBoxContainer" unique_id=241197755]
 layout_mode = 2
 theme_override_constants/separation = 12
 
-[node name="HealthBar" type="ProgressBar" parent="HUD/MarginContainer/HBoxContainer" unique_id=1200059705]
+[node name="HealthBar" type="ProgressBar" parent="HUD/MarginContainer/VBoxContainer/BottomHUD" unique_id=1200059705]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(300, 35)
 layout_mode = 2
@@ -93,7 +127,7 @@ value = 100.0
 rounded = true
 show_percentage = false
 
-[node name="LevelNumber" type="Label" parent="HUD/MarginContainer/HBoxContainer" unique_id=93307512]
+[node name="LevelNumber" type="Label" parent="HUD/MarginContainer/VBoxContainer/BottomHUD" unique_id=93307512]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 0
@@ -102,7 +136,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
 text = "1"
 
-[node name="XPBar" type="ProgressBar" parent="HUD/MarginContainer/HBoxContainer" unique_id=1313842761]
+[node name="XPBar" type="ProgressBar" parent="HUD/MarginContainer/VBoxContainer/BottomHUD" unique_id=1313842761]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(1000, 35)
 layout_mode = 2

@@ -1,5 +1,6 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790368517
+::res://::1790390989
+Primary_Icon.tres::AtlasTexture::4616679425455592602::1790390989::0::1::::<><><>0<>0<><>::uid://b4b47w4ffroe5::::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Full Spritesheet/32x32.png
 ::res://addons/::1790365150
 ::res://addons/colorpicker_presets/::1790365150
 colorpicker_presets.gd::GDScript::2597531570939366545::1790365150::0::1::::<>EditorPlugin<><>0<>1<><>::
@@ -107,7 +108,7 @@ Skeleton Archer_Walk.png::CompressedTexture2D::8163055792278516539::1790365150::
 ::res://HUD/::1790368585
 ::res://HUD/DEMO_Fantasy_RPG_UI_doboui/::1790368569
 developerNote_dobo_ui.txt::TextFile::-1::1790367428::0::1::::<><><>0<>0<><>::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/::1790368786
 Button2_ultramarine.png::CompressedTexture2D::936395884270624082::1790367428::1790368785::1::::<><><>0<>0<>ea63af82e4469cbf2d585a60b57fde27<>res://.godot/imported/Button2_ultramarine.png-984ae80b630cd5a9bfe3291b0f4e18b5.ctex::
 Button3_ultramarine.png::CompressedTexture2D::4196791820044746123::1790367428::1790368785::1::::<><><>0<>0<>1fcb652cf2e624b97df0ef945fcd4c76<>res://.godot/imported/Button3_ultramarine.png-dbcf9a4a277b749457b544d063741ead.ctex::
 Button4_ultramarine.png::CompressedTexture2D::6272000361798819748::1790367428::1790368785::1::::<><><>0<>0<>eb9dcac387584e163ea0c404aaafb63d<>res://.godot/imported/Button4_ultramarine.png-b872e96c2d6ec718dc2352fca533bd62.ctex::
@@ -120,7 +121,7 @@ Button7_cyan.png::CompressedTexture2D::7949783856200869520::1790367428::17903687
 Button7_green.png::CompressedTexture2D::2106478458931898739::1790367428::1790368786::1::::<><><>0<>0<>a4ae7a6fa4dbb77666939e3a1bf772f2<>res://.godot/imported/Button7_green.png-5b5fb7bcd59f67f7a343662d563561ca.ctex::
 Button7_purple.png::CompressedTexture2D::5880147232856556746::1790367428::1790368786::1::::<><><>0<>0<>45f310b4e9397caab56edb2dddd3630a<>res://.godot/imported/Button7_purple.png-c7834c97144ef66320c345c6feeafda2.ctex::
 Button7_ultramarine.png::CompressedTexture2D::4495499594492296631::1790367428::1790368786::1::::<><><>0<>0<>9ec5051169dd382b9ad9e4ad2716eb24<>res://.godot/imported/Button7_ultramarine.png-a377e89ed74695dda0e77e4010e87c63.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/FantasyButtons/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/FantasyButtons/::1790368786
 FantasyButton1_ultramarine.png::CompressedTexture2D::2857225382530375667::1790367428::1790368786::1::::<><><>0<>0<>da0eeb6b41787a3adfd8dbb680a2c8ee<>res://.godot/imported/FantasyButton1_ultramarine.png-073229a0bdb598846b1fee45c8700c8e.ctex::
 FantasyButton2_cyan.png::CompressedTexture2D::6686466899769587692::1790367428::1790368786::1::::<><><>0<>0<>dd6752918c440514cedf59bf7f27996a<>res://.godot/imported/FantasyButton2_cyan.png-bdbcea68f5bba9bad57568c69d70321f.ctex::
 FantasyButton2_green.png::CompressedTexture2D::3841132589074545123::1790367428::1790368786::1::::<><><>0<>0<>4df7021ada90472f8671ca0758f38797<>res://.godot/imported/FantasyButton2_green.png-f1944b0d6c7d77f7696009ab710b33db.ctex::
@@ -130,7 +131,7 @@ FantasyLongButton3_cyan.png::CompressedTexture2D::2658382549228077887::179036742
 FantasyLongButton3_green.png::CompressedTexture2D::2222920711268457187::1790367428::1790368786::1::::<><><>0<>0<>40394a4e26bcd8397eae8302e73592c2<>res://.godot/imported/FantasyLongButton3_green.png-e0a6ad1ff1a9430094bc589794820649.ctex::
 FantasyLongButton3_purple.png::CompressedTexture2D::7934276360997795216::1790367428::1790368785::1::::<><><>0<>0<>1f01d95840b2cad3bc03ebced228aa93<>res://.godot/imported/FantasyLongButton3_purple.png-98cf495ca8621b1915e224aa66e4c77a.ctex::
 FantasyLongButton3_ultramarine.png::CompressedTexture2D::339033010726356680::1790367428::1790368785::1::::<><><>0<>0<>1b0a566f0916c76a6a67a55def8715cf<>res://.godot/imported/FantasyLongButton3_ultramarine.png-7c48177625db0103a6f4e820b7a752dc.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/PatternButtons/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/PatternButtons/::1790368785
 PatternButton3_cyan.png::CompressedTexture2D::6332396435210072666::1790367428::1790368785::1::::<><><>0<>0<>7eb8a8ea09a45f202c67cfad09d3182c<>res://.godot/imported/PatternButton3_cyan.png-7456461ab2782fda871919263553d75d.ctex::
 PatternButton3_green.png::CompressedTexture2D::878351089908442550::1790367428::1790368785::1::::<><><>0<>0<>6c40388699c49b7c864c74749d006949<>res://.godot/imported/PatternButton3_green.png-d65e2ecc2b35377d16d0f4df56d4ac53.ctex::
 PatternButton3_purple.png::CompressedTexture2D::4962603184528528848::1790367428::1790368785::1::::<><><>0<>0<>08823cc10e864fd17944115f1f333dd9<>res://.godot/imported/PatternButton3_purple.png-c376d15658a4b3fd34b7cd152d40716b.ctex::
@@ -139,12 +140,12 @@ PatternLongButton2_cyan.png::CompressedTexture2D::832261564308822057::1790367428
 PatternLongButton2_green.png::CompressedTexture2D::2545565421143434831::1790367428::1790368785::1::::<><><>0<>0<>061b80552bc60b179bdc53b5956f16eb<>res://.godot/imported/PatternLongButton2_green.png-7cf72ffc18c6d589edcf20a6b55368dc.ctex::
 PatternLongButton2_purple.png::CompressedTexture2D::2648327766978009102::1790367428::1790368785::1::::<><><>0<>0<>b0d35cdcee8cdec718de08d4e84b1063<>res://.godot/imported/PatternLongButton2_purple.png-6becf31ccee570ce0c70b6b7b2d9f0e6.ctex::
 PatternLongButton2_ultramarine.png::CompressedTexture2D::6141470309336354068::1790367428::1790368785::1::::<><><>0<>0<>be3b11c516d93d7f4b0d50889be94136<>res://.godot/imported/PatternLongButton2_ultramarine.png-9fd0b777e929abc42ce495cb87bc4653.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/SquareButtons/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Buttons/SquareButtons/::1790368785
 SquareButton3_cyan.png::CompressedTexture2D::3011966200770794850::1790367428::1790368785::1::::<><><>0<>0<>ed440359403b0f650bd4bbdde1ecf931<>res://.godot/imported/SquareButton3_cyan.png-33cc47e9a07fa0abdc23728d50447de4.ctex::
 SquareButton3_green.png::CompressedTexture2D::2563094130283987231::1790367428::1790368785::1::::<><><>0<>0<>9294c3374f9e01d8e5adaa156e4d0666<>res://.godot/imported/SquareButton3_green.png-3ddb9e63f9737d84af5aa75c86f437d9.ctex::
 SquareButton3_purple.png::CompressedTexture2D::5629339278933848175::1790367428::1790368785::1::::<><><>0<>0<>a14a8718533e271d1bbe207a37329911<>res://.godot/imported/SquareButton3_purple.png-93ce7d1666669e86618bec7b92642480.ctex::
 SquareButton3_ultramarine.png::CompressedTexture2D::5618162728985416175::1790367428::1790368785::1::::<><><>0<>0<>e9d5ceaeb1b8a3161b878b3101d654a7<>res://.godot/imported/SquareButton3_ultramarine.png-3454763e2e654124d0b54ae3e6c5ef50.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Cards/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Cards/::1790368786
 Card1_blue.png::CompressedTexture2D::3595374349226365910::1790367428::1790368786::1::::<><><>0<>0<>714499ce43eaf1c2c6f432ac850fcdb4<>res://.godot/imported/Card1_blue.png-b1114ff338ae80a3e345ad82c74372d0.ctex::
 Card1_green.png::CompressedTexture2D::2100896316596462523::1790367428::1790368786::1::::<><><>0<>0<>089dbc2c5128ce00f50b6eace2590e05<>res://.godot/imported/Card1_green.png-d80c22b8d8973334c26096b081e87439.ctex::
 Card2_blue.png::CompressedTexture2D::4440032767417353985::1790367428::1790368786::1::::<><><>0<>0<>d75812ff1169bc6d3471efcb762cd00b<>res://.godot/imported/Card2_blue.png-b713fd4cfc11e5cc2f31ad58ca3a4e59.ctex::
@@ -155,29 +156,29 @@ Card8_blue.png::CompressedTexture2D::4140881522715312929::1790367428::1790368786
 Card8_green.png::CompressedTexture2D::5099765522212905151::1790367428::1790368786::1::::<><><>0<>0<>56094592a53c519a9e7b3ddd9a9c7d77<>res://.godot/imported/Card8_green.png-3c1d9e0206d7eb5c8237cc575fcc2a3c.ctex::
 CardSelection_1_to_6.png::CompressedTexture2D::6446206355556616643::1790367428::1790368786::1::::<><><>0<>0<>b202344fdbe9c78be9748f99404087a9<>res://.godot/imported/CardSelection_1_to_6.png-fdafa87b18b566ab30694184c030fc8f.ctex::
 CardSelection_7_to_8.png::CompressedTexture2D::7304300359259548284::1790367428::1790368786::1::::<><><>0<>0<>b69689218cbea667c723591e120e7f8f<>res://.godot/imported/CardSelection_7_to_8.png-d0ca71b47c6e1b00ed2693bcc47ac31c.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Containers/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Containers/::1790368786
 Container1_default.png::CompressedTexture2D::4559691729948809786::1790367428::1790368786::1::::<><><>0<>0<>f2de4ccf4936a42640646396632564ed<>res://.godot/imported/Container1_default.png-cebd79d829c83b09f59be228d45e1a97.ctex::
 Container3_blue.png::CompressedTexture2D::3260818450537889384::1790367428::1790368786::1::::<><><>0<>0<>99ac72e33209bd8c62141b23313d510d<>res://.godot/imported/Container3_blue.png-dd5a8badf85b7765d235a8a4b98d17ca.ctex::
 Container3_default.png::CompressedTexture2D::4068891482859660651::1790367428::1790368786::1::::<><><>0<>0<>e6f656281724da18d3df6c581122aed2<>res://.godot/imported/Container3_default.png-9d6da63a2cae25b4554588a6f877f54a.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Controls/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Controls/::1790368786
 Arrow3_pearl.png::CompressedTexture2D::1153780704548620591::1790367428::1790368786::1::::<><><>0<>0<>2c4c6cbe297eae012cf50819e8eba73b<>res://.godot/imported/Arrow3_pearl.png-c8aa42018e5df80ab1f0b70889a4d6cc.ctex::
 Arrow4_pearl.png::CompressedTexture2D::1405786020534427384::1790367428::1790368786::1::::<><><>0<>0<>a3e6e2e078da453869d440b9804d2a97<>res://.godot/imported/Arrow4_pearl.png-77db0cead038b38cff9d6832a93532a2.ctex::
 Toggle1_darkBlue.png::CompressedTexture2D::3727139600705560625::1790367428::1790368786::1::::<><><>0<>0<>dc261821198a3e5ce3b23650dd65c8b4<>res://.godot/imported/Toggle1_darkBlue.png-b3a729cefa1f17d8adba5563400caee3.ctex::
 Toggle2_darkBlue.png::CompressedTexture2D::5409977743077643542::1790367428::1790368786::1::::<><><>0<>0<>5730954eacfecaa9d86bee3067b681cc<>res://.godot/imported/Toggle2_darkBlue.png-33700395a9f904e5544e20f3e6da3601.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Dialogues/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Dialogues/::1790368786
 Dialogue2.png::CompressedTexture2D::4489628398536896106::1790367428::1790368786::1::::<><><>0<>0<>ef0d2b96156ac483a5e6eeecb0307741<>res://.godot/imported/Dialogue2.png-db3a9f99c0b822d156203a5999dd4e78.ctex::
 DialogueCharacterName2.png::CompressedTexture2D::816423716215571602::1790367428::1790368786::1::::<><><>0<>0<>c34eef430c6e798a6b0a8f61d5a2fe92<>res://.godot/imported/DialogueCharacterName2.png-f54b4c740c18dd93d7e83298f09b39c2.ctex::
 DialogueRadialChoice2.png::CompressedTexture2D::6779168263924803219::1790367428::1790368786::1::::<><><>0<>0<>1bccd800cabc0c4e5c6eaf928e501963<>res://.godot/imported/DialogueRadialChoice2.png-05b11700f9653667f24f47c679c5632f.ctex::
 Selection22_lightTheme.png::CompressedTexture2D::7608420420962075440::1790367428::1790368785::1::::<><><>0<>0<>b0f966e4bef6a089ddf5a2572621442d<>res://.godot/imported/Selection22_lightTheme.png-55f77701dee20187da915de24d8f9532.ctex::
 Separator3.png::CompressedTexture2D::1257264837341427871::1790367428::1790368785::1::::<><><>0<>0<>707127728537132a6a7e2e003b6a944e<>res://.godot/imported/Separator3.png-4801d679678b620bd944d0171a39c913.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Headers/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Headers/::1790368785
 Header1_cyan.png::CompressedTexture2D::9175061326151752725::1790367428::1790368785::1::::<><><>0<>0<>e6383d45ecbfd58c24781f7c81f3b44d<>res://.godot/imported/Header1_cyan.png-7fcc8b024af1b7ad014a72e9122a9575.ctex::
 Header1_ultramarine.png::CompressedTexture2D::194098847601523368::1790367428::1790368785::1::::<><><>0<>0<>14b10ef0819765f3244b5bd6d01578ee<>res://.godot/imported/Header1_ultramarine.png-9e5e4fff8c121189dbf7b6af2c26ec41.ctex::
 Header2_ultramarine.png::CompressedTexture2D::3873338193630676499::1790367428::1790368785::1::::<><><>0<>0<>d2da781abfd6382565252b4e68636378<>res://.godot/imported/Header2_ultramarine.png-c025d1b3d6e295fe8feb38dc9f896936.ctex::
 ::res://HUD/DEMO_Fantasy_RPG_UI_doboui/HUD_elements/::1781491904
 ::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/::1790368569
 ::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/::1790368568
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/32px/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/32px/::1790368785
 desktop.ini::TextFile::-1::1790367428::0::1::::<><><>0<>0<><>::
 Icon2_32px.png::CompressedTexture2D::154939603007856336::1790367428::1790368785::1::::<><><>0<>0<>50d1ef3dcb53248dd507152a81ce4abe<>res://.godot/imported/Icon2_32px.png-3e4b82d74b007683db04378698a57fc1.ctex::
 Icon9_32px.png::CompressedTexture2D::1648974741771226097::1790367428::1790368785::1::::<><><>0<>0<>e2df8c269b94a6031536a09951bb30d3<>res://.godot/imported/Icon9_32px.png-5795ba9e3da190fde96435b1c13415c5.ctex::
@@ -189,7 +190,7 @@ Icon79_32px.png::CompressedTexture2D::971152800571637762::1790367428::1790368785
 Icon86_32px.png::CompressedTexture2D::7827253408860454265::1790367428::1790368785::1::::<><><>0<>0<>9765664c23c34b9970bafe7260ef2434<>res://.godot/imported/Icon86_32px.png-83269843c610c7041ab81cbcdd940fe8.ctex::
 Icon91_32px.png::CompressedTexture2D::3865690184713377737::1790367428::1790368785::1::::<><><>0<>0<>cb488bd258c396406065795224e603e9<>res://.godot/imported/Icon91_32px.png-db4bf9172f6c1c63725afe93e9a9a309.ctex::
 Icon97_32px.png::CompressedTexture2D::8825608267269113992::1790367428::1790368785::1::::<><><>0<>0<>bbc0902cce5c47192f1aaada6dc649cd<>res://.godot/imported/Icon97_32px.png-c962ebc23fd545d0913c9191fdd80a8e.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/64px/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/64px/::1790368785
 desktop.ini::TextFile::-1::1790367429::0::1::::<><><>0<>0<><>::
 Icon2_64px.png::CompressedTexture2D::318196992426587424::1790367429::1790368785::1::::<><><>0<>0<>fcb1538a4341304e85c18d3ca7cc8945<>res://.godot/imported/Icon2_64px.png-4643f7972ef22a1af9ebdc1643ed6ff8.ctex::
 Icon9_64px.png::CompressedTexture2D::5164465331863099116::1790367429::1790368785::1::::<><><>0<>0<>caa01f6159f8d2a37a49e26b9475fd4e<>res://.godot/imported/Icon9_64px.png-4512b5db08b013c3c128a59350262e7f.ctex::
@@ -202,7 +203,7 @@ Icon81_64px.png::CompressedTexture2D::6191648537564456813::1790367429::179036878
 Icon86_64px.png::CompressedTexture2D::4752936553890429412::1790367429::1790368785::1::::<><><>0<>0<>ce6fdfe2ebfbe6140402ae95935601f9<>res://.godot/imported/Icon86_64px.png-4cc847a4145a20f19a661f0d0c9643b0.ctex::
 Icon95_64px.png::CompressedTexture2D::325300006103883985::1790367429::1790368785::1::::<><><>0<>0<>aa0b72e443971eb468466758ce067ac2<>res://.godot/imported/Icon95_64px.png-c6a252334991cfb58c10a277d063c3f8.ctex::
 Icon97_64px.png::CompressedTexture2D::4079442433976184980::1790367429::1790368785::1::::<><><>0<>0<>cb72d93ca66235a864c75c2100a9b5fc<>res://.godot/imported/Icon97_64px.png-595f5e474cbd73f327bf22c2b3f3852b.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/128px/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/128px/::1790368785
 desktop.ini::TextFile::-1::1790367428::0::1::::<><><>0<>0<><>::
 Icon2_128px.png::CompressedTexture2D::2546421641268003972::1790367428::1790368785::1::::<><><>0<>0<>5cec7b08efc3374d968b060e9ea0f69d<>res://.godot/imported/Icon2_128px.png-0c51cdff0c201d726431454f94233d87.ctex::
 Icon9_128px.png::CompressedTexture2D::6984449319013845420::1790367428::1790368785::1::::<><><>0<>0<>3273c9da9c84c268e4eecba983b6d697<>res://.godot/imported/Icon9_128px.png-cbf037c688e020f8aa2ce11e3f0645de.ctex::
@@ -215,7 +216,7 @@ Icon81_128px.png::CompressedTexture2D::1054548171442531124::1790367428::17903687
 Icon86_128px.png::CompressedTexture2D::1993096751241182347::1790367428::1790368785::1::::<><><>0<>0<>10e58b97deb1e4cdf767fc681af68586<>res://.godot/imported/Icon86_128px.png-8d6b118f7db5a5fc71546d695da08861.ctex::
 Icon95_128px.png::CompressedTexture2D::1335368791902404530::1790367428::1790368785::1::::<><><>0<>0<>02a7568c6f952a727793f2f770a12d20<>res://.godot/imported/Icon95_128px.png-ba69553261363c3d11f5f832b1707c10.ctex::
 Icon97_128px.png::CompressedTexture2D::1574452353096922570::1790367428::1790368785::1::::<><><>0<>0<>05decf2034195c7b4a27fcd52ec07856<>res://.godot/imported/Icon97_128px.png-ad973c6449851529bbc6e2a830b5d122.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/256px/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons/256px/::1790368785
 desktop.ini::TextFile::-1::1790367428::0::1::::<><><>0<>0<><>::
 Icon2_256px.png::CompressedTexture2D::5640060906218041715::1790367428::1790368785::1::::<><><>0<>0<>137a86edced26116b29e39ae7c01220a<>res://.godot/imported/Icon2_256px.png-5ec820d5f1a8139932ae0e6852e8e9c9.ctex::
 Icon9_256px.png::CompressedTexture2D::1531849965476813588::1790367428::1790368785::1::::<><><>0<>0<>667a2c6fef16e38df10b02277c3b758f<>res://.godot/imported/Icon9_256px.png-a9619201c02d12ce69d1e40c7d646988.ctex::
@@ -229,7 +230,7 @@ Icon86_256px.png::CompressedTexture2D::1228031559003681054::1790367428::17903687
 Icon95_256px.png::CompressedTexture2D::1816033474139905798::1790367428::1790368785::1::::<><><>0<>0<>ec361f3dd39d5eaa60114bbba7291dda<>res://.godot/imported/Icon95_256px.png-ed381122da2a0227b1627788083cbc15.ctex::
 Icon97_256px.png::CompressedTexture2D::4451180262791310419::1790367428::1790368785::1::::<><><>0<>0<>bc971b7ad2e63b48a128c57efde532da<>res://.godot/imported/Icon97_256px.png-796812d92e1466c45e8c30095c3f3698.ctex::
 ::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/::1790368569
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_32px/::1790368569
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_32px/::1790368786
 IconOutline3_32px.png::CompressedTexture2D::8141500066976208601::1790367429::1790368785::1::::<><><>0<>0<>a1cecdafe8305a94473981d33ae627ff<>res://.godot/imported/IconOutline3_32px.png-33cda47d018fbb57ebc9ef2ef8dc2250.ctex::
 IconOutline9_32px.png::CompressedTexture2D::8407091028265753220::1790367429::1790368785::1::::<><><>0<>0<>2cb6c68f4e1906b65af7b498b0121b7e<>res://.godot/imported/IconOutline9_32px.png-b821fffb913facaa02e1800f6a061d84.ctex::
 IconOutline16_32px.png::CompressedTexture2D::5886343891862918802::1790367429::1790368785::1::::<><><>0<>0<>74cb5295f0e97ed5d720871df6f6c635<>res://.godot/imported/IconOutline16_32px.png-52c82f1d851c121d444be6f8e42ea7b2.ctex::
@@ -242,7 +243,7 @@ IconOutline85_32px.png::CompressedTexture2D::4401069138080780350::1790367429::17
 IconOutline94_32px.png::CompressedTexture2D::6114975634206216006::1790367429::1790368786::1::::<><><>0<>0<>255f58eba2e65118df5da8ecc1b1f214<>res://.godot/imported/IconOutline94_32px.png-1782cfd25e274b4e00c6a4d59b876e7a.ctex::
 IconOutline96_32px.png::CompressedTexture2D::2365902511478365041::1790367429::1790368786::1::::<><><>0<>0<>096b3e82ec676c71c21eb7dea5a0ce59<>res://.godot/imported/IconOutline96_32px.png-feda488a7bdfc8c7b785dbbbbae390fa.ctex::
 IconOutline98_32px.png::CompressedTexture2D::5871960928646258236::1790367429::1790368786::1::::<><><>0<>0<>fb024f8298c885c4442826766ebe01ba<>res://.godot/imported/IconOutline98_32px.png-afacd0f3cd86b3992d47eb424fbd3b00.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_64px/::1790368569
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_64px/::1790368786
 IconOutline3_64px.png::CompressedTexture2D::4045918742667672830::1790367429::1790368786::1::::<><><>0<>0<>7f09fb4fc649cf1d1ed8dc21db571168<>res://.godot/imported/IconOutline3_64px.png-e22feded943ec7cb6dff38709777d9f7.ctex::
 IconOutline9_64px.png::CompressedTexture2D::5978603658152378516::1790367429::1790368786::1::::<><><>0<>0<>81dde036fd7d6919e5c96ab502c91180<>res://.godot/imported/IconOutline9_64px.png-fb2abf4353699d35c308d00e286b8efd.ctex::
 IconOutline16_64px.png::CompressedTexture2D::2809038269231848083::1790367429::1790368786::1::::<><><>0<>0<>5c800b6a828e57081714d5cc0ac8681a<>res://.godot/imported/IconOutline16_64px.png-2c3f2b05ed8db606ffc8733597738db3.ctex::
@@ -255,7 +256,7 @@ IconOutline85_64px.png::CompressedTexture2D::4018875051389589562::1790367429::17
 IconOutline94_64px.png::CompressedTexture2D::5220292616327371501::1790367429::1790368786::1::::<><><>0<>0<>c7247555d51d064f796ee90a3ebc2f60<>res://.godot/imported/IconOutline94_64px.png-dee70bb5a562f39dadab88e140f509a2.ctex::
 IconOutline96_64px.png::CompressedTexture2D::2083697986461409738::1790367429::1790368786::1::::<><><>0<>0<>d5a550c30e45eceb0f962fa38fd7868e<>res://.godot/imported/IconOutline96_64px.png-e60ffe60c7ca6497e44be54d7e0a9648.ctex::
 IconOutline98_64px.png::CompressedTexture2D::6313640701080982417::1790367429::1790368786::1::::<><><>0<>0<>6ae850d874e9af494bbd17d509acd997<>res://.godot/imported/IconOutline98_64px.png-1fca277fd318cd47196fe9f7dbceb07e.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_128px/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_128px/::1790368786
 desktop.ini::TextFile::-1::1790367429::0::1::::<><><>0<>0<><>::
 IconOutline3_128px.png::CompressedTexture2D::3779744093489019419::1790367429::1790368786::1::::<><><>0<>0<>b763dbfcce8b1fe9592e58b605b4c849<>res://.godot/imported/IconOutline3_128px.png-6b1a2389ecea3afa5697c04109299e5f.ctex::
 IconOutline9_128px.png::CompressedTexture2D::157435044314460685::1790367429::1790368786::1::::<><><>0<>0<>e5f2cc3d5746a3183d56c08cc7e05b93<>res://.godot/imported/IconOutline9_128px.png-0ef71744bdc36b8902d919897e6cbf65.ctex::
@@ -269,7 +270,7 @@ IconOutline90_128px.png::CompressedTexture2D::1035204230235533503::1790367429::1
 IconOutline94_128px.png::CompressedTexture2D::1474553914471914639::1790367429::1790368786::1::::<><><>0<>0<>4c750b295295be688f32f30f869d02f3<>res://.godot/imported/IconOutline94_128px.png-bb8a4f0ee59be811431093985b746529.ctex::
 IconOutline96_128px.png::CompressedTexture2D::3724284225957229146::1790367429::1790368786::1::::<><><>0<>0<>381a02702c00d079405d85336febe6ab<>res://.godot/imported/IconOutline96_128px.png-708f2d0c98125c69664eef0422f5df2a.ctex::
 IconOutline98_128px.png::CompressedTexture2D::3706580949023571358::1790367429::1790368786::1::::<><><>0<>0<>c51fe92d4da4d22907b05206fa931efb<>res://.godot/imported/IconOutline98_128px.png-ab6d4b48db0284d82c8ddf50837070ee.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_256px/::1790368568
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Icons_outline/Outline_256px/::1790368786
 desktop.ini::TextFile::-1::1790367429::0::1::::<><><>0<>0<><>::
 IconOutline3_256px.png::CompressedTexture2D::5108360159640674507::1790367429::1790368786::1::::<><><>0<>0<>5decf48232ba8bd8b3abe01486e69b3e<>res://.godot/imported/IconOutline3_256px.png-4c6de9c58eb9193f77ff3a89fb9a23d9.ctex::
 IconOutline9_256px.png::CompressedTexture2D::1513381390439000762::1790367429::1790368786::1::::<><><>0<>0<>5d63bcdb2d01bbf0819bdd18fd9f4899<>res://.godot/imported/IconOutline9_256px.png-3616d2b0025189e6d3f2d3d5fe9e8e8c.ctex::
@@ -283,12 +284,12 @@ IconOutline85_256px.png::CompressedTexture2D::3442506629848834601::1790367429::1
 IconOutline94_256px.png::CompressedTexture2D::1441923040962004349::1790367429::1790368786::1::::<><><>0<>0<>59538dd8538642b64291dbeccfad463d<>res://.godot/imported/IconOutline94_256px.png-04b67ef1ad0963e2b513bb83f3ac5e5e.ctex::
 IconOutline96_256px.png::CompressedTexture2D::7934384131694781617::1790367429::1790368786::1::::<><><>0<>0<>c80738d11dc86eb6a4ea4c1e363d2162<>res://.godot/imported/IconOutline96_256px.png-f0a04393f17f96fd573feed01149bc44.ctex::
 IconOutline98_256px.png::CompressedTexture2D::1411098472634210945::1790367429::1790368786::1::::<><><>0<>0<>4a447a6aef00b6c56c1d38979270eb88<>res://.godot/imported/IconOutline98_256px.png-36090fd009d75810d8d8f49bf10e7259.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Shapes/::1790368569
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Icons/Shapes/::1790368786
 StarShape1_pink.png::CompressedTexture2D::5959959853097985220::1790367429::1790368786::1::::<><><>0<>0<>92dac895ef56729478b0b97e86dba507<>res://.godot/imported/StarShape1_pink.png-1e7e362aa4d3dfa0bba3f545ac03a6f9.ctex::
 StarShape2_pink.png::CompressedTexture2D::1638889915330616182::1790367429::1790368786::1::::<><><>0<>0<>bef8f939af096727fcc8efefc58cb7f9<>res://.godot/imported/StarShape2_pink.png-a4375500c7fbd8a9e3c541fad59cca63.ctex::
 StarShape2_ultramarine.png::CompressedTexture2D::6613003292856484700::1790367429::1790368786::1::::<><><>0<>0<>549244131e17dfe5826f57f7548527c2<>res://.godot/imported/StarShape2_ultramarine.png-204940a3ba7652a63aea9cbb3ff5450d.ctex::
 StarShape4_pink.png::CompressedTexture2D::3769949167502272103::1790367429::1790368786::1::::<><><>0<>0<>4b0fa52e55463038e43bf2eda2b85032<>res://.godot/imported/StarShape4_pink.png-e0ccd4467b4f36b0f96841991b6781d5.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Item_slots/::1790368569
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Item_slots/::1790368786
 EmptyItemSlot10_darkTheme.png::CompressedTexture2D::5079514379265000406::1790367429::1790368786::1::::<><><>0<>0<>2d64327f42ffc0e0d2f24ca4e30e6c19<>res://.godot/imported/EmptyItemSlot10_darkTheme.png-3a4031e5f316a537bdfc3836b62266a8.ctex::
 itemSlot1_gray.png::CompressedTexture2D::6960628388919560852::1790367429::1790368786::1::::<><><>0<>0<>d34619cf4765c44d80bc7632ac9497f7<>res://.godot/imported/itemSlot1_gray.png-8a09413936ff7adb178716656f299272.ctex::
 itemSlot1_green.png::CompressedTexture2D::9140588421783921898::1790367429::1790368786::1::::<><><>0<>0<>0ba0eff271c505592ecf995533d0693e<>res://.godot/imported/itemSlot1_green.png-ac3c34f3328e1fa8821bc89e2122f771.ctex::
@@ -298,13 +299,13 @@ itemSlotSelected1_green.png::CompressedTexture2D::3368520597317647485::179036742
 itemSlotSelected1_sky.png::CompressedTexture2D::2739720853257468391::1790367429::1790368786::1::::<><><>0<>0<>442452f2ad6f4fcf1f4c0ee45316eae8<>res://.godot/imported/itemSlotSelected1_sky.png-429f6ddf404dae2242973dcde12a5802.ctex::
 itemSlot_default.png::CompressedTexture2D::8309712339799609890::1790367429::1790368786::1::::<><><>0<>0<>189b9d0851c59da4e404bb9d5e91e7d8<>res://.godot/imported/itemSlot_default.png-d3cbdbe14bc0782454de05a076403894.ctex::
 itemSlot_disabled.png::CompressedTexture2D::8635662097768311048::1790367429::1790368786::1::::<><><>0<>0<>2f660161473a49c36babaca2b43775f0<>res://.godot/imported/itemSlot_disabled.png-dc0677fc6b25db5104085f063b258961.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Labels/::1790368569
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Labels/::1790368786
 Label3_yellow.png::CompressedTexture2D::8320520666959210484::1790367429::1790368786::1::::<><><>0<>0<>4b177a20961e283b1c5a44cad97fb52a<>res://.godot/imported/Label3_yellow.png-bb8d6367098ebff59042cb6a11e8e21e.ctex::
 Label5_pearl.png::CompressedTexture2D::2187237154917176764::1790367429::1790368786::1::::<><><>0<>0<>5655de877c28d219fbb440dff5e82a46<>res://.godot/imported/Label5_pearl.png-9f966c1d49d326fb666da7f2565e87ed.ctex::
 LabelTransparent4.png::CompressedTexture2D::9131171162568193551::1790367429::1790368786::1::::<><><>0<>0<>8845d31910516e7156b8dac17008176b<>res://.godot/imported/LabelTransparent4.png-90ea8d2b1744caaa826e6c4c213f2b38.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Modals/::1790368569
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Modals/::1790368786
 Modal12.png::CompressedTexture2D::522243042671126654::1790367429::1790368786::1::::<><><>0<>0<>4a54e86484e063dc16cdd9d6fb62a4fd<>res://.godot/imported/Modal12.png-f98885556825ec51962469e657ccc529.ctex::
-::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Progress_bars/::1790368569
+::res://HUD/DEMO_Fantasy_RPG_UI_doboui/Progress_bars/::1790368786
 ProgressBarBackground4.png::CompressedTexture2D::7115951806638458384::1790367429::1790368786::1::::<><><>0<>0<>5a653f46b039d9b02f5e721196a4d414<>res://.godot/imported/ProgressBarBackground4.png-870165eb5409edf73a2af4b93f2998b8.ctex::
 ProgressBarEffectt1.png::CompressedTexture2D::1353231970133143374::1790367429::1790368786::1::::<><><>0<>0<>44a17f79e34232bb7313578472988c34<>res://.godot/imported/ProgressBarEffectt1.png-9db6ddee3ead9222e3cc86683e5b444e.ctex::
 ProgressBarMaxFill5_blue.png::CompressedTexture2D::537553458532748202::1790367429::1790368786::1::::<><><>0<>0<>910fbcdb55ee87d14c948adf3b287a51<>res://.godot/imported/ProgressBarMaxFill5_blue.png-318d43069a8ec14ba4e937da42a9e504.ctex::
@@ -313,14 +314,14 @@ ProgressBarMaxFill5_yellow.png::CompressedTexture2D::930399501294367933::1790367
 ::res://HUD/Free - Raven Fantasy Icons/::1790368569
 Special Note to the Dev.txt::TextFile::-1::1790365150::0::1::::<><><>0<>0<><>::
 ::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/::1790368569
-::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Full Spritesheet/::1790368569
+::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Full Spritesheet/::1790368787
 16x16.png::CompressedTexture2D::552605504037725828::1790365147::1790368786::1::::<><><>0<>0<>c4f60170d8e91c55aabc0f340771cb3a<>res://.godot/imported/16x16.png-680f96f4f57188e8092b47a5dd56dddd.ctex::
 32x32.png::CompressedTexture2D::4425780665692858646::1790365147::1790368786::1::::<><><>0<>0<>86fd519ad795368fd33b62504f4d5d2f<>res://.godot/imported/32x32.png-4c24e94f09eae0346aef22a73d402e37.ctex::
 64x64.png::CompressedTexture2D::447621437821257236::1790365147::1790368787::1::::<><><>0<>0<>66c1cee5333752338a266984bf7c33fa<>res://.godot/imported/64x64.png-eec8a6a522793b25157becf55a896795.ctex::
-::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/RPG Maker MV and MZ/::1790368569
+::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/RPG Maker MV and MZ/::1790368786
 IconSet.png::CompressedTexture2D::4695422497166688725::1790365147::1790368786::1::::<><><>0<>0<>e3089e7c791907416b5dc24f0e1653ce<>res://.godot/imported/IconSet.png-bafd1cb4cc54cc8054f339ca010bf279.ctex::
 ::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Separated Files/::1790368580
-::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Separated Files/16x16/::1790368574
+::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Separated Files/16x16/::1790368791
 fa1.png::CompressedTexture2D::8411778616671359368::1790365147::1790368786::1::::<><><>0<>0<>5ccae1d4fd5b034e6565008763de6225<>res://.godot/imported/fa1.png-28afad072261ccda284b4c3ecf7eb988.ctex::
 fa2.png::CompressedTexture2D::652290912173714678::1790365148::1790368786::1::::<><><>0<>0<>eb20999e9cc4b37e0ce642daa5c37500<>res://.godot/imported/fa2.png-ba286781a49d1ba7ac144c3833648fd4.ctex::
 fa3.png::CompressedTexture2D::722673325170637283::1790365148::1790368786::1::::<><><>0<>0<>809ee8e88c27188d95a1262950281393<>res://.godot/imported/fa3.png-d66f72226e2582b4f99e2110980b7ca4.ctex::
@@ -2513,7 +2514,7 @@ fa2189.png::CompressedTexture2D::6375850903698571841::1790365148::1790368790::1:
 fa2190.png::CompressedTexture2D::5642940977405775682::1790365148::1790368790::1::::<><><>0<>0<>bdf5ef12b68907386967103768c4189e<>res://.godot/imported/fa2190.png-7fe1bf5fc53b64322fbf4ae621cd56bf.ctex::
 fa2191.png::CompressedTexture2D::5116976811105785681::1790365148::1790368790::1::::<><><>0<>0<>46ca26ec8cfec7cd663c47e87cec4cdd<>res://.godot/imported/fa2191.png-b773fbedba9eb61b4e9416d56af5e80c.ctex::
 fa2192.png::CompressedTexture2D::2496564112022157362::1790365148::1790368790::1::::<><><>0<>0<>3092118a035b1e28c352545d1cddd1c1<>res://.godot/imported/fa2192.png-d9ebd47d6fe7f6f74675c6a688a4c468.ctex::
-::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Separated Files/32x32/::1790368580
+::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Separated Files/32x32/::1790368791
 fb1.png::CompressedTexture2D::8640519390268421011::1790365148::1790368790::1::::<><><>0<>0<>811ec1cbb4dfc02d92f60ef4ad6c8dba<>res://.godot/imported/fb1.png-ca11ddc4f2f1eedc4d1790035c200703.ctex::
 fb2.png::CompressedTexture2D::8543082633368566167::1790365149::1790368790::1::::<><><>0<>0<>c864f73e796e1c2a3574a271ff9ad0ce<>res://.godot/imported/fb2.png-ea68d0a546a64ee92320a2f130f5b174.ctex::
 fb3.png::CompressedTexture2D::2659151332574271958::1790365149::1790368790::1::::<><><>0<>0<>8b774b40ab0c010170a2056b53a00c6f<>res://.godot/imported/fb3.png-28eeb9069acd1fe352981aaf70f348f0.ctex::
@@ -4706,7 +4707,7 @@ fb2189.png::CompressedTexture2D::9075470744716714347::1790365149::1790368774::1:
 fb2190.png::CompressedTexture2D::2101466738814769757::1790365149::1790368774::1::::<><><>0<>0<>d0a89af8d78e25caf4575ed33262e64d<>res://.godot/imported/fb2190.png-d58d65fd3a02e123597cb779f74ea25d.ctex::
 fb2191.png::CompressedTexture2D::4469080043802134512::1790365149::1790368774::1::::<><><>0<>0<>ff8ee8a3ac6d0e56a8e0e835a20c61ed<>res://.godot/imported/fb2191.png-18889266fdcc568f2ce8759ed7aefb0f.ctex::
 fb2192.png::CompressedTexture2D::7081898770671062370::1790365149::1790368774::1::::<><><>0<>0<>2c63e6f9816f25350c567ae68e5530b3<>res://.godot/imported/fb2192.png-dd79114fb7dca31a8f3a9f79e2d350a2.ctex::
-::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Separated Files/64x64/::1790368585
+::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Separated Files/64x64/::1790368783
 fc1.png::CompressedTexture2D::3664955618428357126::1790365149::1790368774::1::::<><><>0<>0<>8acaab3ee3c21e71779b530aa837ab46<>res://.godot/imported/fc1.png-40fc9d27aa72209cbd899ae445aff472.ctex::
 fc2.png::CompressedTexture2D::8305986665464521140::1790365149::1790368774::1::::<><><>0<>0<>cffba3090981619084b6d638cb0595b0<>res://.godot/imported/fc2.png-06d45d1f086e3b2dab60f4ccdfdc8f80.ctex::
 fc3.png::CompressedTexture2D::809209837008616746::1790365150::1790368774::1::::<><><>0<>0<>ef846ca4656a3982a0f8d4e6ed289b77<>res://.godot/imported/fc3.png-db274502f4234a455b70d1a2c7fdf94d.ctex::
@@ -6901,11 +6902,11 @@ fc2191.png::CompressedTexture2D::4645698791985127854::1790365150::1790368780::1:
 fc2192.png::CompressedTexture2D::2511229373827039383::1790365150::1790368780::1::::<><><>0<>0<>00a2991b5c7393a922bc06dd6a1323b2<>res://.godot/imported/fc2192.png-7fb8f8cad8dac62ec4abc968720caaf6.ctex::
 ::res://HUD/Humble Gift - v1.3/::1790368585
 ::res://HUD/Humble Gift - v1.3/Aseprite/::1790368585
-::res://HUD/Humble Gift - v1.3/PNG/::1790368585
+::res://HUD/Humble Gift - v1.3/PNG/::1790368780
 SpriteSheet.png::CompressedTexture2D::4551250624361995394::1790365150::1790368780::1::::<><><>0<>0<>a3d7ad1ce37e572896fa2b71caa94300<>res://.godot/imported/SpriteSheet.png-9889cb40fdb3082d88973de8e8f27865.ctex::
-::res://scenes/::1790368495
+::res://scenes/::1790390303
 2d_game.gd::GDScript::8995211211959508465::1790368071::0::1::::<>Node2D<><>0<>0<><>::
-2D_Game.tscn::PackedScene::5278065556711628546::1790367937::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://Scenes/2d_game.gd<>uid://dq3r015sr1uql::::res://Scenes/pine_tree.tscn<>uid://bqy4yx03pxqcm::::res://Scenes/player.tscn
+2D_Game.tscn::PackedScene::5278065556711628546::1790390303::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://scenes/2d_game.gd<>uid://coovqwnqh4asp::::res://Scenes/hud.gd<>uid://bqy4yx03pxqcm::::res://scenes/player.tscn
 cast.gd::GDScript::3489142608771703023::1790368090::0::1::::<>Area2D<><>0<>0<><>::
 cast.tscn::PackedScene::8625515866347305280::1790367963::0::1::::<><><>0<>0<><>::uid://bpyfw0mh6bsnv::::res://Scenes/cast.gd
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1790365150::0::1::::<><><>0<>0<><>::
@@ -6916,8 +6917,9 @@ minions.tscn::PackedScene::8961453227268789547::1790367963::0::1::::<><><>0<>0<>
 orc_mob.gd::GDScript::5628357733649123762::1790368393::0::1::::<>CharacterBody2D<><>0<>0<><>::
 orc_mob.tscn::PackedScene::763081335624571636::1790368495::0::1::::<><><>0<>0<><>::uid://cmgoh2mvc5gde::::res://scenes/orc_mob.gd<>uid://c8vtg7jm5tdit::::res://characters/Orc with shadows/Orc_Attack01.png<>uid://bkq7p3h07q67k::::res://characters/Orc with shadows/Orc_Death.png<>uid://dxdlfn0im6buy::::res://characters/Orc with shadows/Orc_Hurt.png<>uid://bmpn7fx34mdts::::res://characters/Orc with shadows/Orc_Walk.png
 pine_tree.tscn::PackedScene::8341164372918984475::1790365150::0::1::::<><><>0<>0<><>::uid://dk5b8a84a6n2h::::res://trees/ground_shadow.png<>uid://bql1cc345qv7d::::res://trees/pine_tree.png
-player.gd::GDScript::1749343896328689169::1790365150::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::3560792147793321976::1790367963::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://Scenes/player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://Scenes/cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
+player.gd::GDScript::1749343896328689169::1790380993::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::3560792147793321976::1790369213::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://scenes/player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://scenes/cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
+hud.gd::GDScript::5785691272759688587::1790380993::0::1::::<>CanvasLayer<><>0<>0<><>::
 spell.gd::GDScript::5143679735126824684::1790365150::0::1::::<>Area2D<><>0<>0<><>::
 spell.tscn::PackedScene::4510038469915135496::1790367963::0::1::::<><><>0<>0<><>::uid://cfjvwhypwf5h5::::res://Scenes/spell.gd<>uid://ptnxao6ixb2l::::res://characters/Necromancer/Magic(projectile)/Necromancer_Attack02_Effect.png
 summon.gd::GDScript::2914553064254656028::1790368101::0::1::::<>Area2D<><>0<>0<><>::
