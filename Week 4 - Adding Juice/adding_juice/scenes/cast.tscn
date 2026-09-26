@@ -26,14 +26,12 @@ one_shot = true
 unique_name_in_owner = true
 stream = ExtResource("2_ibr6v")
 volume_db = -10.0
-autoplay = true
 bus = &"SFX"
 
 [node name="SecondaryCast" type="AudioStreamPlayer2D" parent="." unique_id=595185866]
 unique_name_in_owner = true
 stream = ExtResource("3_1q322")
 volume_db = -10.0
-autoplay = true
 bus = &"SFX"
 
 [connection signal="timeout" from="SpellTimer" to="." method="_on_timer_timeout"]

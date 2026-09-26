@@ -17,13 +17,17 @@ func _ready():
 	
 func _physics_process(delta: float) -> void:
 	var direction = Input.get_vector("move_left","move_right","move_up","move_down")
-	velocity = direction * 100 * 1
+	velocity = direction * 100 * speed_multipler
 	move_and_slide()
-	
+
+	if velocity.length() > 0.0:
+		if not %WalkSound.playing:
+			%WalkSound.play()
+	else:
+		%WalkSound.stop()
+
 	if not is_attacking:
 		if velocity.length() > 0.0:
-			if not %WalkSound.playing:
-				%WalkSound.play
 			%Necromancer.play("walk")
 		else:
 			%Necromancer.play("idle")

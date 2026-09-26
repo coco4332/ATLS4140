@@ -13,3 +13,5 @@ res://scenes/orc_mob.gd
 res://scenes/elite_orc.tscn
 res://scenes/orc_mob.tscn
 res://scenes/player.gd
+res://scenes/2d_game.gd
+res://Scenes/hud.gd

@@ -28,7 +28,7 @@ func _on_mob_died(xp_value):
 		%XPBar.value = 0
 		%XPBar.max_value += 100
 		%XPBar.update_maximum_size()
-		%LevelNumber.text = str(level)
+		%LevelNumber.text = "Lv. " + str(level)
 		show_level_up(level)
 		
 var level_up
@@ -53,6 +53,8 @@ func show_level_up(level):
 		%SpawnTimer.wait_time = 0.8
 		%LevelUpBuffs.modulate.a = 1.0
 		%LevelUpBuffs.visible = true
+		$Player/Spells.summon_unlocked = true
+		$HUD.unlock_summon()
 		level_up_buff = create_tween()
 		level_up_buff.tween_interval(3)
 		level_up_buff.tween_property(%LevelUpBuffs, "modulate:a", 0.0, 0.4)

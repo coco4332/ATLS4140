@@ -1,5 +1,12 @@
 extends CanvasLayer
 
+func _ready():
+	%SummonSlot.modulate = Color(0.3, 0.3, 0.3)
+
+func unlock_summon():
+	var tween = create_tween()
+	tween.tween_property(%SummonSlot, "modulate", Color.WHITE, 0.5)
+
 func _on_player_health_changed(current: Variant, max_hp: Variant) -> void:
 	%HealthBar.max_value = max_hp
 	%HealthBar.value = current

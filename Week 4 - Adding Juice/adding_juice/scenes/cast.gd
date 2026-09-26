@@ -4,6 +4,8 @@ signal casted
 signal summoned
 signal cooldown_started(ability, duration)
 
+var summon_unlocked = false
+
 func _physics_process(delta: float) -> void:
 	look_at(get_global_mouse_position())
 		
@@ -29,7 +31,7 @@ func _input(event: InputEvent) -> void:
 		$SpellTimer.start()
 		cooldown_started.emit("spell", $SpellTimer.wait_time)
 
-	if event.is_action_pressed("secondary") and $SummonTimer.is_stopped():
+	if event.is_action_pressed("secondary") and summon_unlocked and $SummonTimer.is_stopped():
 		%SecondaryCast.play()
 		summon()
 		$SummonTimer.start()
