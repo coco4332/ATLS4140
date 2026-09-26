@@ -1,3 +1,6 @@
+HBoxContainer
+MarginContainer
+CanvasLayer
 Window
 CollisionShape2D
 AnimatedSprite2D
@@ -8,8 +11,5 @@ Timer
 TextureProgressBar
 ProgressBar
 Polygon2D
-CanvasLayer
 AnimationPlayer
 Sprite2D
-ColorRect
-PathFollow2D

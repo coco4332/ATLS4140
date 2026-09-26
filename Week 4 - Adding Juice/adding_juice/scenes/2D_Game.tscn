@@ -1,0 +1,171 @@
+[gd_scene format=3 uid="uid://chgy76xhxi5na"]
+
+[ext_resource type="Script" uid="uid://d1fl2xq6ccyab" path="res://scenes/2d_game.gd" id="1_yjop0"]
+[ext_resource type="Script" uid="uid://coovqwnqh4asp" path="res://Scenes/hud.gd" id="3_ji6u6"]
+[ext_resource type="PackedScene" uid="uid://bqy4yx03pxqcm" path="res://scenes/player.tscn" id="3_yjop0"]
+
+[sub_resource type="Curve2D" id="Curve2D_mdfd4"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -859.5697, -626.53876, 0, 0, 0, 0, 169.94043, -630.05206, 0, 0, 0, 0, 867.2446, -615.9989, 0, 0, 0, 0, 877.11206, 606.6301, 0, 0, 0, 0, 28.506104, 603.1168)
+}
+point_count = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ogr1"]
+bg_color = Color(0.15294118, 0.16862746, 0.1882353, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ji6u6"]
+bg_color = Color(0.3882353, 0.8, 0.37254903, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gm0pe"]
+bg_color = Color(0.39215687, 0.40784314, 0.4117647, 0.92156863)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yjop0"]
+bg_color = Color(0.5158252, 0.56059325, 0.9405508, 1)
+
+[node name="Game" type="Node2D" unique_id=1205380695]
+y_sort_enabled = true
+script = ExtResource("1_yjop0")
+
+[node name="SpawnTimer" type="Timer" parent="." unique_id=933005065]
+unique_name_in_owner = true
+autostart = true
+
+[node name="Player" parent="." unique_id=686752001 groups=["friendly_targets"] instance=ExtResource("3_yjop0")]
+unique_name_in_owner = true
+scale = Vector2(0.5, 0.5)
+collision_mask = 10
+
+[node name="Path2D" type="Path2D" parent="Player" unique_id=105313044]
+scale = Vector2(0.6080561, 0.56926507)
+curve = SubResource("Curve2D_mdfd4")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D" unique_id=1856081230]
+unique_name_in_owner = true
+position = Vector2(-859.5697, -626.53876)
+rotation = -0.0034125862
+
+[node name="Background" type="CanvasLayer" parent="." unique_id=326837066]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="Background" unique_id=1668685996]
+anchors_preset = -1
+anchor_left = -0.083333336
+anchor_top = -0.10462963
+anchor_right = -0.083333336
+anchor_bottom = -0.10462963
+offset_right = 2080.0
+offset_bottom = 1193.0
+metadata/_edit_use_anchors_ = true
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=971402997]
+script = ExtResource("3_ji6u6")
+
+[node name="MarginContainer" type="MarginContainer" parent="HUD" unique_id=338194601]
+custom_minimum_size = Vector2(10, 10)
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -35.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUD/MarginContainer" unique_id=241197755]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="HealthBar" type="ProgressBar" parent="HUD/MarginContainer/HBoxContainer" unique_id=1200059705]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 35)
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_styles/background = SubResource("StyleBoxFlat_8ogr1")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ji6u6")
+value = 100.0
+rounded = true
+show_percentage = false
+
+[node name="LevelNumber" type="Label" parent="HUD/MarginContainer/HBoxContainer" unique_id=93307512]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "1"
+
+[node name="XPBar" type="ProgressBar" parent="HUD/MarginContainer/HBoxContainer" unique_id=1313842761]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(1000, 35)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+theme_override_styles/background = SubResource("StyleBoxFlat_gm0pe")
+theme_override_styles/fill = SubResource("StyleBoxFlat_yjop0")
+
+[node name="LevelUpLabel" type="Label" parent="HUD" unique_id=1912921132]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -268.0
+offset_right = -64.0
+offset_bottom = 68.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.6666067, 0.6666064, 7.70092e-07, 1)
+theme_override_font_sizes/font_size = 35
+text = "Leveled Up!"
+
+[node name="LevelUpBuffs" type="Label" parent="HUD" unique_id=1954926339]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -515.0
+offset_top = 63.0
+offset_right = 179.0
+offset_bottom = 131.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.6666067, 0.6666064, 7.70092e-07, 1)
+theme_override_font_sizes/font_size = 35
+text = "Placeholder"
+
+[node name="GameOver" type="ColorRect" parent="HUD" unique_id=725680855]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.54901963)
+
+[node name="Label" type="Label" parent="HUD/GameOver" unique_id=1828802795]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -11.5
+offset_right = 43.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 118
+text = "Game Over"
+
+[connection signal="timeout" from="SpawnTimer" to="." method="_on_timer_timeout"]
+[connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
+[connection signal="health_depleted" from="Player" to="HUD" method="_on_player_health_depleted"]

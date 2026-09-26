@@ -1,4 +1,10 @@
-res://orc_mob.tscn
-res://minions.tscn
-res://elite_orc.gd
-res://orc_mob.gd
+res://Scenes/2d_game.gd
+res://scenes/cast.gd
+res://scenes/summon.gd
+res://Scenes/orc_mob.gd
+res://Scenes/orc_mob.tscn
+res://Scenes/elite_orc.gd
+res://Scenes/2D_Game.tscn
+res://Scenes/player.tscn
+res://Scenes/hud.gd
+res://Scenes/player.gd
