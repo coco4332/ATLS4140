@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://du5i8r7jdycua"]
 
-[ext_resource type="Script" uid="uid://bpyfw0mh6bsnv" path="res://Scenes/cast.gd" id="1_dk5gl"]
-
+[ext_resource type="Script" uid="uid://bpyfw0mh6bsnv" path="res://scenes/cast.gd" id="1_dk5gl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vk1bi"]
 radius = 12.0
@@ -11,10 +10,14 @@ collision_layer = 0
 collision_mask = 2
 script = ExtResource("1_dk5gl")
 
-[node name="Timer" type="Timer" parent="." unique_id=284581792]
+[node name="SpellTimer" type="Timer" parent="." unique_id=284581792]
+wait_time = 0.5
 one_shot = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=741638452]
 shape = SubResource("CircleShape2D_vk1bi")
 
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[node name="SummonTimer" type="Timer" parent="." unique_id=798280181]
+one_shot = true
+
+[connection signal="timeout" from="SpellTimer" to="." method="_on_timer_timeout"]

@@ -1,11 +1,24 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790390989
-Primary_Icon.tres::AtlasTexture::4616679425455592602::1790390989::0::1::::<><><>0<>0<><>::uid://b4b47w4ffroe5::::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Full Spritesheet/32x32.png
+::res://::1790396342
+Background.tres::TileSet::8805290464066875918::1790395935::0::1::::<><><>0<>0<><>::uid://cp4lm8ny4nfmk::::res://background/TX Tileset Grass.png<>uid://dm5bjpmbv1ndl::::res://background/TX Shadow Plant.png<>uid://gv2rg1h0ljyq::::res://background/TX Plant.png
 ::res://addons/::1790365150
 ::res://addons/colorpicker_presets/::1790365150
 colorpicker_presets.gd::GDScript::2597531570939366545::1790365150::0::1::::<>EditorPlugin<><>0<>1<><>::
 plugin.cfg::TextFile::-1::1790365150::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1790365150::0::1::::<><><>0<>0<><>::
+::res://background/::1790393749
+TX Plant.png::CompressedTexture2D::466155067621442988::1790393430::1790393749::1::::<><><>0<>0<>584ac44b01c6829d3c2044389769e726<>res://.godot/imported/TX Plant.png-8b6515f282cd01b999567c5ab4dbf672.ctex::
+TX Player.png::CompressedTexture2D::620278089461217033::1790393430::1790393749::1::::<><><>0<>0<>58251f927c4e661462b82f8b1c4b8fb8<>res://.godot/imported/TX Player.png-3a471da1f931dfc97893c735998ca730.ctex::
+TX Props.png::CompressedTexture2D::5650104533592638910::1790393430::1790393749::1::::<><><>0<>0<>64544d2fad44b510965fc259e7863079<>res://.godot/imported/TX Props.png-73790355422769267420665b6482f8ea.ctex::
+TX Shadow Plant.png::CompressedTexture2D::8063537102957836261::1790393430::1790393749::1::::<><><>0<>0<>3240102c7de1d255608e2a55f619b92d<>res://.godot/imported/TX Shadow Plant.png-509d39a5f72dfd22eeebd3a48d5b53d2.ctex::
+TX Shadow.png::CompressedTexture2D::3093606799625145695::1790393430::1790393749::1::::<><><>0<>0<>83f734bba083a7b7d233a3945df18309<>res://.godot/imported/TX Shadow.png-14780f29bb72225fe6b564675159d6e1.ctex::
+TX Struct.png::CompressedTexture2D::2637832327066981123::1790393430::1790393749::1::::<><><>0<>0<>cd0b920b40d5bdfe125d9960c204f8f5<>res://.godot/imported/TX Struct.png-7ecacecdb060d5a2fa6ae8d5230bc0c0.ctex::
+TX Tileset Grass.png::CompressedTexture2D::5886232047754444462::1790393430::1790393749::1::::<><><>0<>0<>c1f7c988332b875b245bbe2d3758a23c<>res://.godot/imported/TX Tileset Grass.png-bf65806659ac32d331616d7319c4cbe2.ctex::
+TX Tileset Stone Ground.png::CompressedTexture2D::1583568291445507317::1790393430::1790393749::1::::<><><>0<>0<>fe5bd9f671028eab73c8784d910819f7<>res://.godot/imported/TX Tileset Stone Ground.png-9e81b650600c1673bce5d855a9ef5680.ctex::
+TX Tileset Wall.png::CompressedTexture2D::381337114971975140::1790393430::1790393749::1::::<><><>0<>0<>6c21c08b32ce5609bf83bce8444a2606<>res://.godot/imported/TX Tileset Wall.png-a89686aceec784927826a4f3f6682d88.ctex::
+::res://background/Extra/::1790393749
+TX Plant with Shadow.png::CompressedTexture2D::7793934865754899456::1790393430::1790393749::1::::<><><>0<>0<>a6b889435746a30c67bd7f82aa0156df<>res://.godot/imported/TX Plant with Shadow.png-981862efae7a7c7c7ee1f75c8bc8ed20.ctex::
+TX Props with Shadow.png::CompressedTexture2D::5782081748375718521::1790393430::1790393749::1::::<><><>0<>0<>ecfec7b21a01cdb9aeb81742dfc0f0b6<>res://.godot/imported/TX Props with Shadow.png-2a0390f60f73c237615bcd804073026d.ctex::
 ::res://characters/::1790365150
 ::res://characters/Elite Orc/::1790365150
 ::res://characters/Elite Orc/Elite Orc/::1790365176
@@ -6904,26 +6917,23 @@ fc2192.png::CompressedTexture2D::2511229373827039383::1790365150::1790368780::1:
 ::res://HUD/Humble Gift - v1.3/Aseprite/::1790368585
 ::res://HUD/Humble Gift - v1.3/PNG/::1790368780
 SpriteSheet.png::CompressedTexture2D::4551250624361995394::1790365150::1790368780::1::::<><><>0<>0<>a3d7ad1ce37e572896fa2b71caa94300<>res://.godot/imported/SpriteSheet.png-9889cb40fdb3082d88973de8e8f27865.ctex::
-::res://scenes/::1790390303
+::res://scenes/::1790396327
 2d_game.gd::GDScript::8995211211959508465::1790368071::0::1::::<>Node2D<><>0<>0<><>::
-2D_Game.tscn::PackedScene::5278065556711628546::1790390303::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://scenes/2d_game.gd<>uid://coovqwnqh4asp::::res://Scenes/hud.gd<>uid://bqy4yx03pxqcm::::res://scenes/player.tscn
-cast.gd::GDScript::3489142608771703023::1790368090::0::1::::<>Area2D<><>0<>0<><>::
-cast.tscn::PackedScene::8625515866347305280::1790367963::0::1::::<><><>0<>0<><>::uid://bpyfw0mh6bsnv::::res://Scenes/cast.gd
+2D_Game.tscn::PackedScene::5278065556711628546::1790396244::0::1::::<><><>0<>0<><>::uid://d1fl2xq6ccyab::::res://scenes/2d_game.gd<>uid://dxpl32xehc3r3::::res://Background.tres<>uid://coovqwnqh4asp::::res://Scenes/hud.gd<>uid://bqy4yx03pxqcm::::res://scenes/player.tscn<>uid://b4b47w4ffroe5::::res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Full Spritesheet/32x32.png
+cast.gd::GDScript::3489142608771703023::1790392860::0::1::::<>Area2D<><>0<>0<><>::
+cast.tscn::PackedScene::8625515866347305280::1790393079::0::1::::<><><>0<>0<><>::uid://bpyfw0mh6bsnv::::res://scenes/cast.gd
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1790365150::0::1::::<><><>0<>0<><>::
 elite_orc.gd::GDScript::5786820730618252500::1790368420::0::1::::<>CharacterBody2D<><>0<>0<><>::
-elite_orc.tscn::PackedScene::4153877843658371194::1790367963::0::1::::<><><>0<>0<><>::uid://copgdekyn3qsa::::res://Scenes/elite_orc.gd<>uid://dui2i3v102h7w::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Attack01.png<>uid://dw7u44sku88w2::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Death.png<>uid://bp021s64arwrt::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Hurt.png<>uid://d41sq6tdngui::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Idle.png<>uid://btp0dog0t8rw2::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Walk.png
+elite_orc.tscn::PackedScene::4153877843658371194::1790396244::0::1::::<><><>0<>0<><>::uid://copgdekyn3qsa::::res://scenes/elite_orc.gd<>uid://dui2i3v102h7w::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Attack01.png<>uid://dw7u44sku88w2::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Death.png<>uid://bp021s64arwrt::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Hurt.png<>uid://d41sq6tdngui::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Idle.png<>uid://btp0dog0t8rw2::::res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Walk.png
+hud.gd::GDScript::5785691272759688587::1790392860::0::1::::<>CanvasLayer<><>0<>0<><>::
 minion.gd::GDScript::5758805360004656606::1790365150::0::1::::<>CharacterBody2D<><>0<>0<><>::
-minions.tscn::PackedScene::8961453227268789547::1790367963::0::1::::<><><>0<>0<><>::uid://cobuxho8t81ew::::res://Scenes/minion.gd<>uid://c0l2uonkail2f::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Attack01.png<>uid://chjn5nhf4uh0a::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Death.png<>uid://d4lwjadq306b7::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Hurt.png<>uid://b4eseugb8jew0::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Summon.png<>uid://7gr7li5tqu4v::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Walk.png
+minions.tscn::PackedScene::8961453227268789547::1790396209::0::1::::<><><>0<>0<><>::uid://cobuxho8t81ew::::res://scenes/minion.gd<>uid://c0l2uonkail2f::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Attack01.png<>uid://chjn5nhf4uh0a::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Death.png<>uid://d4lwjadq306b7::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Hurt.png<>uid://b4eseugb8jew0::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Summon.png<>uid://7gr7li5tqu4v::::res://characters/Skeleton/Skeleton with shadows/Skeleton_Walk.png
 orc_mob.gd::GDScript::5628357733649123762::1790368393::0::1::::<>CharacterBody2D<><>0<>0<><>::
-orc_mob.tscn::PackedScene::763081335624571636::1790368495::0::1::::<><><>0<>0<><>::uid://cmgoh2mvc5gde::::res://scenes/orc_mob.gd<>uid://c8vtg7jm5tdit::::res://characters/Orc with shadows/Orc_Attack01.png<>uid://bkq7p3h07q67k::::res://characters/Orc with shadows/Orc_Death.png<>uid://dxdlfn0im6buy::::res://characters/Orc with shadows/Orc_Hurt.png<>uid://bmpn7fx34mdts::::res://characters/Orc with shadows/Orc_Walk.png
+orc_mob.tscn::PackedScene::763081335624571636::1790396244::0::1::::<><><>0<>0<><>::uid://cmgoh2mvc5gde::::res://scenes/orc_mob.gd<>uid://c8vtg7jm5tdit::::res://characters/Orc with shadows/Orc_Attack01.png<>uid://bkq7p3h07q67k::::res://characters/Orc with shadows/Orc_Death.png<>uid://dxdlfn0im6buy::::res://characters/Orc with shadows/Orc_Hurt.png<>uid://bmpn7fx34mdts::::res://characters/Orc with shadows/Orc_Walk.png
 pine_tree.tscn::PackedScene::8341164372918984475::1790365150::0::1::::<><><>0<>0<><>::uid://dk5b8a84a6n2h::::res://trees/ground_shadow.png<>uid://bql1cc345qv7d::::res://trees/pine_tree.png
 player.gd::GDScript::1749343896328689169::1790380993::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::3560792147793321976::1790369213::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://scenes/player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://scenes/cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
-hud.gd::GDScript::5785691272759688587::1790380993::0::1::::<>CanvasLayer<><>0<>0<><>::
+player.tscn::PackedScene::3560792147793321976::1790396327::0::1::::<><><>0<>0<><>::uid://y6no51quh8l6::::res://scenes/player.gd<>uid://bq5a21rpu40dq::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Attack02.png<>uid://oyskiykrfgk0::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Idle.png<>uid://du5i8r7jdycua::::res://scenes/cast.tscn<>uid://bmn2mu1hmwxr8::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Walk.png<>uid://bgb2hfka2nu2j::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Summon.png
 spell.gd::GDScript::5143679735126824684::1790365150::0::1::::<>Area2D<><>0<>0<><>::
 spell.tscn::PackedScene::4510038469915135496::1790367963::0::1::::<><><>0<>0<><>::uid://cfjvwhypwf5h5::::res://Scenes/spell.gd<>uid://ptnxao6ixb2l::::res://characters/Necromancer/Magic(projectile)/Necromancer_Attack02_Effect.png
 summon.gd::GDScript::2914553064254656028::1790368101::0::1::::<>Area2D<><>0<>0<><>::
 summon.tscn::PackedScene::7693194438688065330::1790367963::0::1::::<><><>0<>0<><>::uid://bhr3i7gyp2vd1::::res://Scenes/summon.gd<>uid://bjicrup0qfa41::::res://characters/Necromancer/Necromancer with shadows/Necromancer_Sumon_Effect.png
-::res://trees/::1790365176
-ground_shadow.png::CompressedTexture2D::7923201520570455721::1790365150::1790365176::1::::<><><>0<>0<>f3993af74bb4bae39e275822afebd58c<>res://.godot/imported/ground_shadow.png-5e424648d8c28c796d0d32975bb5beba.ctex::
-pine_tree.png::CompressedTexture2D::3533732700255610135::1790365150::1790365176::1::::<><><>0<>0<>e3cd3eba4f77380aa3a76dc2ef700f0d<>res://.godot/imported/pine_tree.png-d61929395d8fbd7dd9882891dc69101d.ctex::

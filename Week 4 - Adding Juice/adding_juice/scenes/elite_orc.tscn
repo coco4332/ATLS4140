@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b0gf047bqx1yk"]
 
-[ext_resource type="Script" uid="uid://copgdekyn3qsa" path="res://Scenes/elite_orc.gd" id="1_q52oy"]
+[ext_resource type="Script" uid="uid://copgdekyn3qsa" path="res://scenes/elite_orc.gd" id="1_q52oy"]
 [ext_resource type="Texture2D" uid="uid://dui2i3v102h7w" path="res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Attack01.png" id="2_onwir"]
 [ext_resource type="Texture2D" uid="uid://dw7u44sku88w2" path="res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Death.png" id="3_auea6"]
 [ext_resource type="Texture2D" uid="uid://bp021s64arwrt" path="res://characters/Elite Orc/Elite Orc with shadows/Elite Orc_Hurt.png" id="4_d7fle"]
@@ -247,8 +247,10 @@ script = ExtResource("1_q52oy")
 
 [node name="EliteOrc" type="AnimatedSprite2D" parent="." unique_id=911710623]
 unique_name_in_owner = true
+position = Vector2(0, -7)
 sprite_frames = SubResource("SpriteFrames_ahyey")
 animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2140524427]
+position = Vector2(0, -7)
 shape = SubResource("CircleShape2D_kj45b")

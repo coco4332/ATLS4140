@@ -138,7 +138,10 @@ secondary={
 
 [layer_names]
 
+2d_physics/layer_1="Player"
+2d_physics/layer_2="Mobs"
 3d_physics/layer_2="player"
+2d_physics/layer_3="Enviornment"
 
 [rendering]
 

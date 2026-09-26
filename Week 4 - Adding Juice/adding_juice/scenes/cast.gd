@@ -2,6 +2,7 @@ extends Area2D
 
 signal casted
 signal summoned
+signal cooldown_started(ability, duration)
 
 func _physics_process(delta: float) -> void:
 	look_at(get_global_mouse_position())
@@ -21,11 +22,17 @@ func summon():
 	get_tree().current_scene.add_child(summon)
 	
 func _input(event: InputEvent) -> void:
-	if event.is_action_pressed("primary") and $Timer.is_stopped():
+	if event.is_action_pressed("primary") and $SpellTimer.is_stopped():
 		shoot()
-		$Timer.start()
-	
-	if event.is_action_pressed("secondary") and $Timer.is_stopped():
+		$SpellTimer.start()
+		cooldown_started.emit("spell", $SpellTimer.wait_time)
+
+	if event.is_action_pressed("secondary") and $SummonTimer.is_stopped():
 		summon()
-		$Timer.start()
+		$SummonTimer.start()
+		cooldown_started.emit("summon", $SummonTimer.wait_time)
+		
+
+
+
 		

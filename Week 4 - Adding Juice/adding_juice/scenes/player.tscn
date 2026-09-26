@@ -266,26 +266,31 @@ script = ExtResource("1_0r4yp")
 
 [node name="Necromancer" type="AnimatedSprite2D" parent="." unique_id=1845966834]
 unique_name_in_owner = true
+position = Vector2(0, -9)
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_ahyey")
 animation = &"summon"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=208715454]
+position = Vector2(0, -9)
 scale = Vector2(1.5, 1.5)
 shape = SubResource("CircleShape2D_6uie5")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=482951856]
+position = Vector2(0, -9)
 scale = Vector2(1.5, 1.5)
 zoom = Vector2(4, 4)
 
 [node name="Spells" parent="." unique_id=1810494907 instance=ExtResource("3_xrodo")]
+position = Vector2(0, -9)
 scale = Vector2(1.5, 1.5)
 
 [node name="HurtBox" type="Area2D" parent="." unique_id=549307226]
 unique_name_in_owner = true
 light_mask = 0
 visibility_layer = 2
+position = Vector2(0, -9)
 scale = Vector2(1.5, 1.5)
 collision_layer = 0
 collision_mask = 2
@@ -294,9 +299,6 @@ collision_mask = 2
 scale = Vector2(1.5, 1.5)
 shape = SubResource("CircleShape2D_sweqy")
 debug_color = Color(0.92724276, 0, 0.19789186, 0.41960785)
-
-[node name="Timer" type="Timer" parent="." unique_id=1649931926]
-one_shot = true
 
 [connection signal="casted" from="Spells" to="." method="_on_spells_casted"]
 [connection signal="summoned" from="Spells" to="." method="_on_spells_summoned"]

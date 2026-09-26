@@ -1,3 +1,4 @@
+TileMapLayer
 Label
 VBoxContainer
 TextureProgressBar
@@ -11,4 +12,3 @@ CharacterBody2D
 Area2D
 Timer
 ProgressBar
-Polygon2D

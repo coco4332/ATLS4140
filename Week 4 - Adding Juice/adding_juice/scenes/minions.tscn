@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d0w83cejr47at"]
 
-[ext_resource type="Script" uid="uid://cobuxho8t81ew" path="res://Scenes/minion.gd" id="1_lx7mk"]
+[ext_resource type="Script" uid="uid://cobuxho8t81ew" path="res://scenes/minion.gd" id="1_lx7mk"]
 [ext_resource type="Texture2D" uid="uid://c0l2uonkail2f" path="res://characters/Skeleton/Skeleton with shadows/Skeleton_Attack01.png" id="2_3rkw7"]
 [ext_resource type="Texture2D" uid="uid://chjn5nhf4uh0a" path="res://characters/Skeleton/Skeleton with shadows/Skeleton_Death.png" id="3_2imd6"]
 [ext_resource type="Texture2D" uid="uid://d4lwjadq306b7" path="res://characters/Skeleton/Skeleton with shadows/Skeleton_Hurt.png" id="4_tq8t3"]
@@ -233,10 +233,11 @@ script = ExtResource("1_lx7mk")
 
 [node name="MeleeSkeleton" type="AnimatedSprite2D" parent="." unique_id=700528836]
 unique_name_in_owner = true
+position = Vector2(-2, -7)
 sprite_frames = SubResource("SpriteFrames_ahyey")
 animation = &"attack"
 autoplay = "summon"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=322350405]
-position = Vector2(2, 1)
+position = Vector2(0, -6)
 shape = SubResource("CircleShape2D_kj45b")
