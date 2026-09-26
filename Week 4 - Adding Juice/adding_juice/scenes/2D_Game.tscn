@@ -104,6 +104,13 @@ nine_patch_stretch = true
 texture_under = SubResource("AtlasTexture_48546")
 texture_progress = SubResource("AtlasTexture_48546")
 
+[node name="Label" type="Label" parent="HUD/MarginContainer/VBoxContainer/AbilityBar/SpellSlot" unique_id=2132581750]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "LMB"
+
 [node name="SummonSlot" type="TextureProgressBar" parent="HUD/MarginContainer/VBoxContainer/AbilityBar" unique_id=1677090487]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(128, 128)
@@ -111,6 +118,14 @@ layout_mode = 2
 nine_patch_stretch = true
 texture_under = SubResource("AtlasTexture_m4xs2")
 texture_progress = SubResource("AtlasTexture_m4xs2")
+
+[node name="Label" type="Label" parent="HUD/MarginContainer/VBoxContainer/AbilityBar/SummonSlot" unique_id=438339844]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+scale = Vector2(1, 1.0019653)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "RMB"
 
 [node name="BottomHUD" type="HBoxContainer" parent="HUD/MarginContainer/VBoxContainer" unique_id=241197755]
 layout_mode = 2
