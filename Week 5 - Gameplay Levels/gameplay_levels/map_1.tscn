@@ -69,6 +69,7 @@ texture_region_size = Vector2i(32, 32)
 4:1/0 = 0
 12:1/size_in_atlas = Vector2i(3, 1)
 12:1/0 = 0
+12:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-50.666668, -13.333334, 50.666668, -13.333334, 50.666668, -8, -50.666668, -8)
 12:2/size_in_atlas = Vector2i(2, 3)
 12:2/0 = 0
 6:6/size_in_atlas = Vector2i(1, 2)
@@ -79,6 +80,8 @@ texture_region_size = Vector2i(32, 32)
 4:9/0 = 0
 9:1/size_in_atlas = Vector2i(2, 3)
 9:1/0 = 0
+9:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(29.333336, -45.333336, 29.333336, -45.333336, 24, -45.333336, 24, 45.333336, 29.333336, 45.333336)
+9:1/0/physics_layer_0/polygon_1/points = PackedVector2Array(-24, -45.333336, -29.333334, -45.333336, -29.333334, 45.333336, -24, 45.333336)
 1:6/size_in_atlas = Vector2i(4, 2)
 1:6/0 = 0
 1:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -8, -64, 8, 64, 8, 64, -8, -64, -8)
@@ -433,7 +436,6 @@ text = "Map Completed!"
 [node name="SpawnTimer" type="Timer" parent="." unique_id=541209759]
 unique_name_in_owner = true
 wait_time = 3.0
-autostart = true
 
 [node name="Music" type="AudioStreamPlayer" parent="." unique_id=2086242063]
 stream = ExtResource("7_1dan6")

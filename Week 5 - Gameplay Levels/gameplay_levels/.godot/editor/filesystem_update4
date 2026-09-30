@@ -4,3 +4,5 @@ res://door.gd
 res://map_1.gd
 res://door.tscn
 res://scenes/hud.gd
+res://scenes/player.gd
+res://scenes/player.tscn
