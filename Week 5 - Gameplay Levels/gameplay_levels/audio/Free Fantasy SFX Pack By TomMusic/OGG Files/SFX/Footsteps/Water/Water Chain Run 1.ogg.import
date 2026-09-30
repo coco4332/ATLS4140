@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://2xbv44x8bmh6"
+path="res://.godot/imported/Water Chain Run 1.ogg-c6394d90687d2ff7ad6d1c7d42449f57.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Water/Water Chain Run 1.ogg"
+dest_files=["res://.godot/imported/Water Chain Run 1.ogg-c6394d90687d2ff7ad6d1c7d42449f57.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

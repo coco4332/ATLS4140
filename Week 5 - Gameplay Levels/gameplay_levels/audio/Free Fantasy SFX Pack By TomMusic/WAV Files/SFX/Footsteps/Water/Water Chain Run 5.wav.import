@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dm5q2vdto7u8g"
+path="res://.godot/imported/Water Chain Run 5.wav-ffe9a10ca1704a70eb5e19ff30838f37.sample"
+
+[deps]
+
+source_file="res://audio/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Water/Water Chain Run 5.wav"
+dest_files=["res://.godot/imported/Water Chain Run 5.wav-ffe9a10ca1704a70eb5e19ff30838f37.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

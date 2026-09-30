@@ -1,0 +1,14 @@
+TileMapLayer
+OpenXRCompositionLayerQuad
+Node2D
+CanvasGroup
+AudioStreamPlayer2D
+AudioStreamPlayer
+Label
+VBoxContainer
+TextureProgressBar
+HBoxContainer
+MarginContainer
+CanvasLayer
+Window
+CollisionShape2D

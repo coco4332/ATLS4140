@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cn2s2763dbih8"
+path="res://.godot/imported/Sea Storm.ogg-7610d9e0c2229b4a955520fdf7b1c507.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Sea/Sea Storm.ogg"
+dest_files=["res://.godot/imported/Sea Storm.ogg-7610d9e0c2229b4a955520fdf7b1c507.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
