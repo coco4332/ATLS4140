@@ -436,6 +436,7 @@ text = "Map Completed!"
 [node name="SpawnTimer" type="Timer" parent="." unique_id=541209759]
 unique_name_in_owner = true
 wait_time = 3.0
+autostart = true
 
 [node name="Music" type="AudioStreamPlayer" parent="." unique_id=2086242063]
 stream = ExtResource("7_1dan6")
