@@ -1,3 +1,5 @@
-res://Background.tres
 res://map_1.tscn
-res://scenes/player.tscn
+res://Background.tres
+res://door.gd
+res://map_1.gd
+res://door.tscn

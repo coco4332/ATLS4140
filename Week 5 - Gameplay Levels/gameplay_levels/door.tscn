@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://cenirr2bmokw2"]
+
+[ext_resource type="Script" uid="uid://cu73h6e1exdf1" path="res://door.gd" id="1_v6xrn"]
+[ext_resource type="Texture2D" uid="uid://cmq7np8mqkdmk" path="res://background/TX Props.png" id="2_0phs7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kj45b"]
+atlas = ExtResource("2_0phs7")
+region = Rect2(0, 96, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tvoox"]
+atlas = ExtResource("2_0phs7")
+region = Rect2(0, 160, 96, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ahyey"]
+size = Vector2(31, 14)
+
+[node name="Door" type="StaticBody2D" unique_id=259738319]
+collision_layer = 4
+script = ExtResource("1_v6xrn")
+
+[node name="Closed" type="Sprite2D" parent="." unique_id=365174455]
+unique_name_in_owner = true
+position = Vector2(0, -25)
+texture = SubResource("AtlasTexture_kj45b")
+
+[node name="Open" type="Sprite2D" parent="." unique_id=731727236]
+unique_name_in_owner = true
+visible = false
+position = Vector2(0, -25)
+texture = SubResource("AtlasTexture_tvoox")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1796146160]
+unique_name_in_owner = true
+position = Vector2(0, -21)
+shape = SubResource("RectangleShape2D_ahyey")
