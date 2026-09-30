@@ -3,3 +3,4 @@ res://Background.tres
 res://door.gd
 res://map_1.gd
 res://door.tscn
+res://scenes/hud.gd

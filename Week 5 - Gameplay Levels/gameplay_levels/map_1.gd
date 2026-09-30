@@ -3,10 +3,16 @@ extends Node2D
 var XP = 0
 var level = 1
 var elite_mob = false
-
+var game_start
 const ORC = preload("res://scenes/orc_mob.tscn")
 const ELITE_ORC = preload("res://scenes/elite_orc.tscn")
 
+func _ready() -> void:
+	game_start = create_tween()
+	game_start.tween_interval(5)
+	game_start.tween_property(%GameStartText, "modulate:a", 0.0, 0.4)
+	game_start.tween_callback(func(): %GameStartText.visible = false)
+	
 func spawn_mob():
 	var new_mob = (ELITE_ORC if elite_mob else ORC).instantiate()
 	new_mob.died.connect(_on_mob_died)
@@ -14,16 +20,14 @@ func spawn_mob():
 	new_mob.global_position = %PathFollow2D.global_position
 	add_child(new_mob)
 	
-func _on_timer_timeout():
-	spawn_mob()
-
+	
 func _on_player_health_depleted() -> void:
 	%GameOver.visible = true
 	get_tree().paused = true
 
 func _on_mob_died(xp_value):
 	%XPBar.value += xp_value
-	if %XPBar.value == %XPBar.max_value:
+	if %XPBar.value >= %XPBar.max_value:
 		level += 1
 		get_tree().call_group("doors", "on_level_changed", level)
 		%XPBar.value = 0
@@ -54,7 +58,7 @@ func show_level_up(level):
 		%SpawnTimer.wait_time = 0.8
 		%LevelUpBuffs.modulate.a = 1.0
 		%LevelUpBuffs.visible = true
-		$Player/Spells.summon_unlocked = true
+		$World/Player/Spells.summon_unlocked = true
 		$HUD.unlock_summon()
 		level_up_buff = create_tween()
 		level_up_buff.tween_interval(3)
@@ -73,7 +77,7 @@ func show_level_up(level):
 		level_up_buff.tween_callback(func(): %LevelUpBuffs.visible = false)
 	
 	if level == 5:
-		%LevelUpBuffs.text = "Elite Orcs, Uh Oh! Increase Spawn Rate!"
+		%LevelUpBuffs.text = "Elite Orcs, Uh Oh! Find the door to escape!!"
 		elite_mob = true
 		%SpawnTimer.wait_time = 0.5
 		%LevelUpBuffs.modulate.a = 1.0
@@ -96,3 +100,14 @@ func show_level_up(level):
 	
 	
 			
+
+
+func _on_spawn_timer_timeout() -> void:
+	spawn_mob()
+
+
+func _on_finish_line_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if body != %Player:
+		return
+	%MapComplete.visible = true
+	get_tree().paused = true

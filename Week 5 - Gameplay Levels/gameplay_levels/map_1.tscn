@@ -14,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://gv2rg1h0ljyq" path="res://background/TX Plant.png" id="6_6gr1l"]
 [ext_resource type="Texture2D" uid="uid://b4b47w4ffroe5" path="res://HUD/Free - Raven Fantasy Icons/Free - Raven Fantasy Icons/Full Spritesheet/32x32.png" id="6_ud82j"]
 [ext_resource type="AudioStream" uid="uid://e58vhkm367d7" path="res://audio/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Day/Forest Day.ogg" id="7_1dan6"]
+[ext_resource type="Texture2D" uid="uid://cmq7np8mqkdmk" path="res://background/TX Props.png" id="7_6gr1l"]
 [ext_resource type="PackedScene" uid="uid://cenirr2bmokw2" path="res://door.tscn" id="15_g4m70"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4m70"]
@@ -101,31 +102,35 @@ texture_region_size = Vector2i(32, 32)
 12:1/size_in_atlas = Vector2i(3, 1)
 12:1/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yp6yu"]
+texture = ExtResource("7_6gr1l")
+texture_region_size = Vector2i(32, 32)
+10:8/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_ahyey"]
 physics_layer_0/collision_layer = 0
 sources/0 = SubResource("TileSetAtlasSource_eo5y4")
 sources/1 = SubResource("TileSetAtlasSource_bsonp")
+sources/2 = SubResource("TileSetAtlasSource_yp6yu")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pahgl"]
 texture = ExtResource("6_6gr1l")
 texture_region_size = Vector2i(32, 32)
 0:0/size_in_atlas = Vector2i(5, 5)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 40, 8, 40, 8, 56, -8, 56)
 5:0/size_in_atlas = Vector2i(3, 5)
 5:0/0 = 0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 40, 8, 40, 8, 56, -8, 56)
 9:0/size_in_atlas = Vector2i(3, 5)
 9:0/0 = 0
+9:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 56, 8, 56, 8, 40, -8, 40)
 1:6/0 = 0
 3:6/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_fjrip"]
+physics_layer_0/collision_layer = 4
 sources/0 = SubResource("TileSetAtlasSource_pahgl")
-
-[sub_resource type="Curve2D" id="Curve2D_6gr1l"]
-_data = {
-"points": PackedVector2Array(0, 0, 0, 0, -859.5697, -626.53876, 0, 0, 0, 0, 169.94043, -630.05206, 0, 0, 0, 0, 867.2446, -615.9989, 0, 0, 0, 0, 877.11206, 606.6301, 0, 0, 0, 0, 28.506104, 603.1168)
-}
-point_count = 5
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g4m70"]
 atlas = ExtResource("6_ud82j")
@@ -155,6 +160,15 @@ bg_color = Color(0.39215687, 0.40784314, 0.4117647, 0.92156863)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yp6yu"]
 bg_color = Color(0.5158252, 0.56059325, 0.9405508, 1)
 
+[sub_resource type="Curve2D" id="Curve2D_6gr1l"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -1966.9237, -864.2723, 0, 0, 0, 0, 872.4875, -865.9767, 0, 0, 0, 0, 867.2446, -615.9989, 0, 0, 0, 0, 877.11206, 606.6301, 0, 0, 0, 0, 28.506104, 603.1168)
+}
+point_count = 5
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ahyey"]
+b = Vector2(108, 0)
+
 [node name="Map1" type="Node2D" unique_id=380351436]
 script = ExtResource("1_6gr1l")
 
@@ -181,16 +195,22 @@ tile_set = SubResource("TileSet_d3ayb")
 [node name="Door" parent="." unique_id=259738319 instance=ExtResource("15_g4m70")]
 y_sort_enabled = true
 position = Vector2(472, -248)
+required_level = 5
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=369329633]
 tile_map_data = PackedByteArray("AAAdAO7/AAANAAQAAAAcAOv/AQAMAAEAAAA=")
 tile_set = SubResource("TileSet_ahyey")
 
+[node name="Props" type="TileMapLayer" parent="." unique_id=1456608744]
+tile_map_data = PackedByteArray("AAAMAAkABgANAAsAAAD2//r/BgAJAAIAAAD2//z/BgAJAAIAAAD2//7/BgAJAAIAAAD2/wAABgAJAAIAAAD5//r/BgAJAAIAAAD5//z/BgAJAAIAAAD5//7/BgAJAAIAAAD5/wAABgAJAAIAAAANAPf/BgANAAAAAAAQAPf/BgANAAAAAAASAAgABgAEAAAAAAARAAgABgAEAAAAAAARAAkABgAEAAAAAAASAAkABgAEAAAAAAAAAAAABgALAAgAAAD4/woABgAHAAUAAAD1/w0ABgAHAAUAAADz/woABgAHAAIAAAD2/wgABgAHAAAAAAAJAAcABgALAAUAAAAJAAsABgALAAUAAAAPAAwABgANAAYAAAAPAAcABgALAAUAAAAAAA8ABgAHAAcAAAACAA8ABgAHAAcAAAAEAA8ABgAHAAkAAAACABEABgAHAAkAAAD9/xEABgAHAAkAAAA=")
+tile_set = ExtResource("1_avvnj")
+
+[node name="Props2" type="TileMapLayer" parent="." unique_id=1791838311]
+tile_map_data = PackedByteArray("AAAMAAkABgANAAsAAAD2//r/BgAJAAIAAAD2//z/BgAJAAIAAAD2//7/BgAJAAIAAAD2/wAABgAJAAIAAAD5//r/BgAJAAIAAAD5//z/BgAJAAIAAAD5//7/BgAJAAIAAAD5/wAABgAJAAIAAAANAPf/BgANAAAAAAAQAPf/BgANAAAAAAASAAgABgAEAAAAAAARAAgABgAEAAAAAAARAAkABgAEAAAAAAASAAkABgAEAAAAAAAAAAAABgAKAAgAAAD1/w4ABgAIAAYAAAD4/wsABgAIAAYAAAD2/wgABgAIAAAAAADz/wsABgAIAAMAAAA=")
+tile_set = ExtResource("1_avvnj")
+
 [node name="World" type="Node2D" parent="." unique_id=1463469823]
 y_sort_enabled = true
-
-[node name="Props" type="TileMapLayer" parent="World" unique_id=1456608744]
-tile_set = ExtResource("1_avvnj")
 
 [node name="TowerTops" type="TileMapLayer" parent="World" unique_id=747912680]
 y_sort_enabled = true
@@ -212,15 +232,6 @@ tile_set = SubResource("TileSet_fjrip")
 unique_name_in_owner = true
 scale = Vector2(0.5, 0.5)
 collision_mask = 14
-
-[node name="Path2D" type="Path2D" parent="World/Player" unique_id=1767615742]
-scale = Vector2(0.6080561, 0.56926507)
-curve = SubResource("Curve2D_6gr1l")
-
-[node name="PathFollow2D" type="PathFollow2D" parent="World/Player/Path2D" unique_id=2014369446]
-unique_name_in_owner = true
-position = Vector2(-859.5697, -626.53876)
-rotation = -0.0034125862
 
 [node name="HitSound" type="AudioStreamPlayer2D" parent="World/Player" unique_id=1137474267]
 unique_name_in_owner = true
@@ -338,6 +349,20 @@ theme_override_colors/font_color = Color(0.6666067, 0.6666064, 7.70092e-07, 1)
 theme_override_font_sizes/font_size = 35
 text = "Leveled Up!"
 
+[node name="GameStartText" type="Label" parent="HUD" unique_id=928928978]
+unique_name_in_owner = true
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -576.5
+offset_top = 168.0
+offset_right = 576.5
+offset_bottom = 236.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 35
+text = "Your village has been destroyed! Fight your way out to avenge them!"
+
 [node name="LevelUpBuffs" type="Label" parent="HUD" unique_id=689448118]
 unique_name_in_owner = true
 visible = false
@@ -379,6 +404,32 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 118
 text = "Game Over"
 
+[node name="MapComplete" type="ColorRect" parent="HUD" unique_id=625733561]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.54901963)
+
+[node name="Label" type="Label" parent="HUD/MapComplete" unique_id=1338016113]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -11.5
+offset_right = 43.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 118
+text = "Map Completed!"
+
 [node name="SpawnTimer" type="Timer" parent="." unique_id=541209759]
 unique_name_in_owner = true
 wait_time = 3.0
@@ -389,5 +440,27 @@ stream = ExtResource("7_1dan6")
 volume_db = -10.0
 autoplay = true
 bus = &"Music"
+
+[node name="Path2D" type="Path2D" parent="." unique_id=1767615742]
+position = Vector2(249.66306, 260.08124)
+scale = Vector2(0.43248406, 0.5867147)
+curve = SubResource("Curve2D_6gr1l")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=2014369446]
+unique_name_in_owner = true
+position = Vector2(-1966.9237, -864.2723)
+rotation = -0.0006002676
+
+[node name="FinishLine" type="Area2D" parent="." unique_id=593588136]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FinishLine" unique_id=1713014037]
+position = Vector2(422, -358)
+shape = SubResource("SegmentShape2D_ahyey")
+
+[connection signal="health_changed" from="World/Player" to="HUD" method="_on_player_health_changed"]
+[connection signal="health_depleted" from="World/Player" to="." method="_on_player_health_depleted"]
+[connection signal="cooldown_started" from="World/Player/Spells" to="HUD" method="_on_spells_cooldown_started"]
+[connection signal="timeout" from="SpawnTimer" to="." method="_on_spawn_timer_timeout"]
+[connection signal="body_shape_entered" from="FinishLine" to="." method="_on_finish_line_body_shape_entered"]
 
 [editable path="World/Player"]
